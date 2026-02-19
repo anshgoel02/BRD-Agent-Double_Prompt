@@ -40,6 +40,11 @@ def parse_args() -> argparse.Namespace:
         default=str(Path(settings.default_output_dir) / "intake_gap.docx"),
         help="Path to save IntakeGapResult as .docx",
     )
+    parser.add_argument(
+        "--history-dir",
+        default=None,
+        help="Directory to save versioned BRD revisions (v1, v2, ...).",
+    )
     return parser.parse_args()
 
 
@@ -52,6 +57,7 @@ def main() -> None:
         output_markdown_path=args.output_md,
         output_docx_path=args.output_docx,
         output_intake_docx_path=args.output_intake_docx,
+        revision_history_dir=args.history_dir or str(Path(args.output_md).parent),
     )
     graph.invoke(state)
 

@@ -31,3 +31,6 @@ class BRDState(BaseModel):
     output_markdown_path: Optional[str] = None
     output_docx_path: Optional[str] = None
     output_intake_docx_path: Optional[str] = None
+    revision_number: int = 0
+    revision_history_dir: Optional[str] = None
+    revision_files: List[str] = Field(default_factory=list)
