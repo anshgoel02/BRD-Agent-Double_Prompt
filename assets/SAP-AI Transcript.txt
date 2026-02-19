@@ -1,0 +1,877 @@
+﻿Right. Then we'll just wait for a minute and two. Then it started so that I don't have to repeat.
+2 minutes 27 seconds
+Right, you get started.
+2 minutes 30 seconds
+You're expecting to.
+2 minutes 33 seconds
+Ignite casino to decline Kia's out of office. Hunch from this is.
+2 minutes 38 seconds
+OK.
+2 minutes 40 seconds
+So TK all right.
+2 minutes 43 seconds
+Introduction. I think we know each other right.
+2 minutes 47 seconds
+So let me let me get started in context of what's the objective here. What are we trying to achieve?
+2 minutes 52 seconds
+And then subsequently, what are the next steps in terms of how do we take it forward?
+2 minutes 58 seconds
+So. So I don't know how much you are aware or not that in the quote UN quote non SAP side of the world, there has been work ongoing in context of how do we.
+3 minutes 12 seconds
+Identify the whole software development lifecycle, right?
+3 minutes 15 seconds
+So right from the phase of how do we capture the requirements to the point of how do we deploy the solution?
+3 minutes 24 seconds
+You know how do.
+3 minutes 24 seconds
+We.
+3 minutes 25 seconds
+Basically, use different agents to essentially take over a lot of work that we do manually, right?
+3 minutes 33 seconds
+And whether it is in terms of coding, whether it is in terms of testing and so on and so forth.
+3 minutes 39 seconds
+And.
+3 minutes 42 seconds
+We want to kind of.
+3 minutes 45 seconds
+You know use the same approach methodology.
+3 minutes 49 seconds
+Into the SAP world is essentially the first core objective.
+3 minutes 53 seconds
+However, when we want to do that for SAP world as well, it shouldn't be a scenario that there is one approach for SAP and there is one approach. Let's say for non SAP, right?
+4 minutes 4 seconds
+So we want to look at from an engineering perspective and say this is our approach.
+4 minutes 9 seconds
+And these are the variations based on the platforms, because every platform will be unique in nature in terms of how you develop, what kind of tool sets are available, acceptable for different platforms, right?
+4 minutes 20 seconds
+So we may be able to use a tool like cursor.
+4 minutes 24 seconds
+A very, you know, efficiently in open stack.
+4 minutes 26 seconds
+But we may not be able to do it for a right, so we may have to build in to like Jewel and others for for a web, right?
+4 minutes 34 seconds
+So those are the kind of variations that we have to be very considerate about.
+4 minutes 38 seconds
+But ultimately our approach methodology has to be the same. The tool sets can be different, right?
+4 minutes 43 seconds
+So that's the objective of what we're trying to do.
+4 minutes 47 seconds
+Ultimately envision this as a what we say as a developer experience portal, right?
+4 minutes 56 seconds
+And I think you know, just like what you had tried to initiate from within the SAP world, but take it outside SAP and think of it as.
+5 minutes 4 seconds
+One way of doing it wherein you have a portal, you know whether the product owner or the functional engineer logs in and initiates a project.
+5 minutes 15 seconds
+And then there is a very detailed, thorough life cycle of how it goes through from a requirement phase to, you know, design phase to a build phase to a testing phase. And so and so forth, right? So so we want to envision that one landing page which is.
+5 minutes 30 seconds
+A developer Experience Portal where in all of this comes to life in one place.
+5 minutes 35 seconds
+But for us to even get to that point, I just wanted to first make sure what are what are these different components?
+5 minutes 41 seconds
+What are the different types of agents that we have to build from a software development lifecycle perspective?
+5 minutes 46 seconds
+So that's the first key objective. The second key objective in context of SAP specifically is that as we go into what we say is phase two of SAP program right now, it is purely a technical upgrade, right?
+6 minutes
+Obviously some variations in terms of code changes and all will happen, but ultimately from a business perspective, just a technical upgrade.
+6 minutes 8 seconds
+But as you go into Phase 2, the intent is to reimagine, optimize certain processes itself.
+6 minutes 18 seconds
+So if you run, let's say, in order to cache cycle.
+6 minutes 21 seconds
+I don't know how much you would be able to correlate with what I'm saying, but you know the whole process of how I get in order from the customer then I you know what we say is pick back from the warehouse, deliver it, issue it and then INV.
+6 minutes 37 seconds
+Transport it and then.
+6 minutes 39 seconds
+Invoice it to the customer.
+6 minutes 41 seconds
+That whole process will have to be reimagined. When I say reimagined, the intent is to say, OK, we do it this way today.
+6 minutes 50 seconds
+And what is the right way of doing it wherein we will be able to be more efficient, right?
+6 minutes 55 seconds
+So that's the that's the.
+7 minutes
+So that's the strategy that that team wants to.
+7 minutes 6 seconds
+No problem.
+7 minutes 7 seconds
+So that's a strategy that the team wants to build in the Phase 2, right?
+7 minutes 11 seconds
+And they have identified certain specific process areas and and so and so forth.
+7 minutes 17 seconds
+Now we are taking a step back and saying why do I have to go through a huge consulting exercise of that?
+7 minutes 24 seconds
+Why can't I use AI to actually reimagine the process for us as well?
+Right. So there is a.
+7 minutes 32 seconds
+You know an approach, a methodology that we can follow to ultimately do that reimagination using AI itself, wherein I all we have to do is say it is my process.
+7 minutes 42 seconds
+Here are the pain points that we have with the current status process.
+7 minutes 47 seconds
+Here are the business KPIs associated with this process that we want to improve.
+7 minutes 53 seconds
+This is the targeted improvement that we want to have.
+7 minutes 57 seconds
+And these are the kind of customizations developments that we have built over this particular.
+8 minutes 2 seconds
+The process area now, can AI tell me what my future state should look like which will automate my end to end process itself?
+8 minutes 12 seconds
+Right now, that automation could be in form of developments that we may have to do in SAP. It could be in form of new agents that we may have to introduce to automate certain manual steps.
+8 minutes 24 seconds
+Could be anything, right? But ultimately.
+8 minutes 27 seconds
+Why do we even need to ever consulting exercise with Deloitte for four months and they telling us when you know, it should be very evident and clear in terms of, you know, what those automations could be? And I'm not saying they will be perfect.
+8 minutes 41 seconds
+Right. But they will definitely be an accelerator to us and say that these are the scenarios.
+8 minutes 47 seconds
+Now we can then as a human in loop or with an expert person, can validate whether those recommendations are right or wrong.
+8 minutes 53 seconds
+You know and then accordingly modify, right.
+8 minutes 56 seconds
+So those are the 2 branches in which we want to bring in AI into what we say as the Edge program or in JP Stack, right? One in terms of the lifecycle of failed and one in terms of reimagination of the process itself right now second one is.
+9 minutes 14 seconds
+Gonna be a little more complicated.
+9 minutes 15 seconds
+It will take some time.
+9 minutes 16 seconds
+We will have to do a long POC and so and so forth, but the first one is basically.
+9 minutes 22 seconds
+Where we key pieces where we should be able to accelerate relatively quick, all right.
+9 minutes 28 seconds
+So let me explain to you how we envision and if you would now follow the process chart here.
+9 minutes 33 seconds
+How do we envision this to happen?
+9 minutes 35 seconds
+So first thing first generally is that in context of any SAP program or for that matter any?
+9 minutes 42 seconds
+Technology initiative is that you have to understand the business requirements, right?
+9 minutes 46 seconds
+So that's generally your step #1.
+9 minutes 50 seconds
+The current way of working in in the software development lifecycle is that you will run certain workshops. Business team comes in, they explain to you what is that they need, right?
+10 minutes 1 second
+So what are the requirements?
+10 minutes 3 seconds
+Then in SAP world you have the functional engineers or the functional consultants.
+10 minutes 8 seconds
+Who would you know discuss counter question?
+10 minutes 11 seconds
+Get certain inputs to ultimately understand that OK, what the requirements are and then these are documented in what we say as a business requirement document, right? And so that's your step #1.
+10 minutes 24 seconds
+Now the way we are thinking or let's say we have done it in non SAP world. Now we want to do it in the SAP world which is that why do I have to write the requirement document?
+10 minutes 33 seconds
+Why can't we take the transcripts of these? You know, sessions that have happened and then obviously build an AI agent which will know, you know why, you know, what is that we need to do to then develop the business requirement document itself.
+10 minutes 49 seconds
+In fact, the North Star in that is we need to build an agent which actually joins the team's call and is also checking whether we have covered all aspects of requirement in that workshop or not.
+11 minutes 2 seconds
+Right. So when you do ASAP requirement need requirements around like a security access and all right. So for this particular process what kind of security access do you need or we want to understand you know what the data needs for that particular requirement or not right so whether
+11 minutes 19 seconds
+in that session.
+11 minutes 21 seconds
+Any topic around data or any topic around security was covered or not and if not can the agent nudge it in the call itself that you know we have not covered these two sections right?
+11 minutes 30 seconds
+This may be a North star, but ultimately an agent who is listening to the call.
+11 minutes 34 seconds
+And activity actively, you know contributing as well, right?
+11 minutes 39 seconds
+But again, I'm not going to that one. The first piece is a low hanging fruit, which is now you have the transcripts.
+11 minutes 45 seconds
+You have run the call methodically.
+11 minutes 47 seconds
+Write a functional engineer has ensured that every aspect of the requirements are well covered.
+11 minutes 52 seconds
+Now it could be one workshop or it could be sequence or two or three workshops, depending on how big that you know topic is.
+12 minutes
+Ultimately, we should be able to generate the requirement document using any agent. That requirement document goes through a human in loop methodology which is, you know, the business reviews it, the functional engineer reviews it, they approve, right?
+12 minutes 14 seconds
+Now once a requirement document is approved again in, in parlance of you know SAP, you would identify that some of these would be able to be be would be managed by the standard configs.
+12 minutes 30 seconds
+There would be parts of these requirements that would be gaps, right?
+12 minutes 34 seconds
+So we need to build an agent #2, which essentially does that initial assessment that if these are the requirements.
+12 minutes 44 seconds
+Can these be managed by the standard config or there are certain gaps which will mean that there is an enhancement to be done within SAP to meet those specific requirements?
+12 minutes 56 seconds
+Right now, I'm not expecting too much of.
+13 minutes
+A.
+13 minutes
+Efficiency gains in that exercise because I don't know the level of maturity.
+13 minutes 4 seconds
+Different flash language models will give us in that kind of an analysis, but irrespective, the understanding is that over a period of time the.
+13 minutes 13 seconds
+Models will mature and we will be able to extract a lot of information.
+13 minutes 17 seconds
+Right. So then that agent gives us that very clear output in terms of the gaps you know, and and then we go through the next cycle, which is that now that we know the gaps that these are the enhancements and developments that that we need to do so.
+13 minutes 32 seconds
+The next step for those is what is my functional design?
+13 minutes 35 seconds
+What is my technical design?
+13 minutes 37 seconds
+For those specific gaps.
+13 minutes 38 seconds
+So that's your agent #3, which is I understand the gap.
+13 minutes 43 seconds
+Now let's build the functional design and the technical design for that specific.
+13 minutes 48 seconds
+Requirement right?
+So that's the what I would say requirement to design phase kind of a cycle.
+13 minutes 58 seconds
+Then goes, then we get into the next which is. We have the functional design, we have the technical design.
+14 minutes 3 seconds
+We don't need to build the code for it, right?
+14 minutes 6 seconds
+So that that's where in your agent #4 comes in, which is your build agent and it will translate the functional technical design into an actual code, which you can then.
+14 minutes 16 seconds
+Used to build a solution.
+14 minutes 18 seconds
+Again, not to say in every step we have a human in the loop.
+14 minutes 22 seconds
+You know, AI is not yet mature enough to say that they can do everything by themselves.
+14 minutes 27 seconds
+I think the technical architects would still play a pivotal role, even in prompting the AI in the right way so that you get the right output.
+14 minutes 35 seconds
+Right. So, so so there is a build agent in parallel.
+14 minutes 39 seconds
+What you also have is a test case agent, which essentially then takes up the functional design document technical design document to generate the.
+14 minutes 48 seconds
+Test cases, right?
+14 minutes 50 seconds
+Similarly, you have an agent which stays at your quote UN quote as is process.
+14 minutes 55 seconds
+You know documentation and generates test cases from there as well.
+14 minutes 59 seconds
+OK.
+15 minutes
+So. So that's so on the testing side, your agent #1, which ultimately is your agent #15 in the whole lifecycle, which is the test case generation agent.
+15 minutes 9 seconds
+And then last but not the least, or I would say there are two more, which is the test execution agent.
+15 minutes 17 seconds
+So there is A and maybe this will be an opportunity wherein we'll demonstrate to you we have built in testing agent.
+15 minutes 25 seconds
+Which just reads the test document.
+15 minutes 28 seconds
+Which is your Word document converts that into a prompt and then executes the testing.
+15 minutes 35 seconds
+So essentially it takes away the whole use case of a code and code Tosca or a test automation engine, right?
+15 minutes 44 seconds
+So it's an AI stack build.
+15 minutes 46 seconds
+Testing agent and we have validated it for anything which is browser so it doesn't work for a thick client which is GUI.
+15 minutes 53 seconds
+As of now, we have to think through if it can, but at least for anything which is browser based.
+15 minutes 59 seconds
+It will just read the Word document of the test case, convert that into a prompt.
+16 minutes 4 seconds
+Someone will have to wear just just to make sure that prompt generation is right, and then once that is adjusted, just execute and it will go into the system execute every step.
+16 minutes 14 seconds
+Take the screenshots of every step and generate a test execution report and if in case it fails at any particular point in time, we'd be able to generate a defect as well.
+16 minutes 23 seconds
+Right. So that's your quote UN quote test execution agent. So one was a test case generation, then your test execution agent which is your you know step number six and then the last one which is what we say as a training agent.
+16 minutes 36 seconds
+So you need to generate the training document.
+16 minutes 39 seconds
+So what we want to do is the very same engine that we have built for test automation and execution. Can we then use the very same in a different way to generate a training document as well which will be a training document for the end user?
+16 minutes 52 seconds
+Right. So your that is your e-mail #7. So this in totality will bring into life enigmatic way of doing software development for SAP?
+17 minutes 3 seconds
+Now, each of these agents will have variations in terms of how beneficial they are at this point in time. Some in some of them will give you 5060% of productivity benefits or they may give 2030%.
+17 minutes 16 seconds
+We don't know until unless we try and I know some of these are already tried.
+17 minutes 21 seconds
+You know, let's say in context of functional design document generation you we done it.
+17 minutes 26 seconds
+So we will be able to reuse repurpose them, right? But.
+17 minutes 31 seconds
+Ultimately, the intent here is that all of this, and again this may be hard for me to help you guys visualize, but I hope you do, which is so how do I make this work at one place, right?
+17 minutes 44 seconds
+So think of it that I have just logged in into a portal.
+17 minutes 48 seconds
+Wherein I say that OK, I am initiating a new project whether it is a project or within a project. I am initiating a new requirement.
+17 minutes 57 seconds
+So I'm doing an edge program.
+17 minutes 59 seconds
+That's my project, which is the Edge project. It is a new requirement that I'm initiating for that particular project and then as I so that becomes my step one that I am in the current requirement phase of this particular.
+18 minutes 12 seconds
+Change enhancement or a new project altogether.
+18 minutes 16 seconds
+So I get to the step one, which is the requirement phase and the input in that is that I have 123 workshops, right?
+18 minutes 24 seconds
+And I have 123 workshops.
+18 minutes 27 seconds
+These are the transcripts for those workshops, and I also, you know, have certain additional documents.
+18 minutes 34 seconds
+Let's say that I used to run that particular workshop. I have uploaded those documents, the transcripts, the documents.
+18 minutes 41 seconds
+And then the action on that portal is generate the business requirement document for me, right?
+18 minutes 47 seconds
+So the the the agent at the background is triggered to generate the requirement document it generates it, sends it or provides it as an input for the business owner.
+18 minutes 58 seconds
+And the functional engineer, they review that document and you know again go through the status management of it and then say that yes, once they are satisfied with the edits and all.
+19 minutes 8 seconds
+They say that yes, this is approved. So once the requirement is approved, then the next let's say agent gets triggered right?
+19 minutes 18 seconds
+Which is then your design phase agent.
+19 minutes 21 seconds
+So that design phase agent should be able to go into the requirement document.
+19 minutes 25 seconds
+And then say, OK, what are the gaps in this right, which are part of your requirement document itself?
+19 minutes 30 seconds
+Get the context from the requirement document on what that gaps are.
+19 minutes 34 seconds
+And then generates your. You know output on the functional technical design for those particular gaps.
+19 minutes 42 seconds
+Again, human in the loop, the technical architect and the functional engineer start reviewing it.
+19 minutes 48 seconds
+They review and once they make the required edits, they approve.
+19 minutes 52 seconds
+Then it goes into the next agent which picks that up and builds the code for those.
+19 minutes 58 seconds
+You know things.
+19 minutes 59 seconds
+So that's the cycle in which I just explained to you.
+20 minutes 1 second
+So visualize it in that particular format.
+20 minutes 4 seconds
+Is ultimately and you know endpoint that we need to create right now.
+20 minutes 11 seconds
+So for us, what is the task?
+20 minutes 13 seconds
+So first thing is that we have to visualize this in a way that you know how do we build this once we have visualized this.
+20 minutes 21 seconds
+And that's wherein comes in.
+20 minutes 24 seconds
+So we have these tools like Figma, UX pilot.
+20 minutes 28 seconds
+Which are our design tools?
+Wherein you know we should be able to use the transcripts of what we just discussed.
+20 minutes 35 seconds
+Generate a prompt and then from that prompt generate a.
+20 minutes 39 seconds
+You know, a kind of a figma design of what it should look like. Then obviously you can prompt with it and kind of work around and see what that design looks like, which will meet our requirements.
+20 minutes 50 seconds
+And there's obviously user-friendly from a from a user's perspective, right?
+20 minutes 54 seconds
+So that's.
+20 minutes 56 seconds
+That's our step number one to kind of visualize this.
+20 minutes 58 seconds
+How would it work right?
+21 minutes
+Second piece is, as I said, that the agents that I just articulated, 6 or 7 agents that we have now.
+21 minutes 6 seconds
+Some of these are already in work.
+21 minutes 9 seconds
+So as I said, testing execution agent right?
+21 minutes 12 seconds
+Test case generation agent. These are invokes functional technical design document generation agent. You know there is some work that has already been done. So I think we need to list down those agents and put put a plan behind them and say OK.
+21 minutes 26 seconds
+Where do we stand on each of those and how can we validate that they are good enough for us to start with?
+21 minutes 32 seconds
+Right. So we have gotten to a point that we can start using it. Obviously it will take us some time to mature this right.
+21 minutes 38 seconds
+So that's your, that's the second task. Third, which I would say is a precursor to 2nd, which is the technology stack that we will use to build this.
+21 minutes 46 seconds
+Right now, so we can obviously once we have the front end design ready, you know we can obviously explore whether it is BTP which is the right place to build this or it is something else.
+21 minutes 59 seconds
+That's a decision that we will have to do in the subsequent discussions. Do a pros and cons for each of those, understand that.
+22 minutes 8 seconds
+What if I build on BTP?
+22 minutes 9 seconds
+What's my advantage? Is disadvantages?
+22 minutes 11 seconds
+What if I build it on an open technology stack and then integrate back into you know what we may already have in BTP?
+22 minutes 18 seconds
+That's a discussion that we can have, but ultimately what we need to look at is at this front end that we're trying to build is not just for SAP. You know, we want to build this one consistent front end, which can then be used by other projects as.
+22 minutes 33 seconds
+Well.
+22 minutes 33 seconds
+It's just that as you define the project, you may say a drop down which say this is an SAP project or this is a non SAP project and that should then ultimately trigger.
+22 minutes 42 seconds
+Different agents in the background, right to drive the output that you may want because we may not need a detailed business requirement document in a template.
+22 minutes 51 seconds
+What we use for SAP in other areas right in other areas, we may just need a user story generation.
+22 minutes 56 seconds
+So hence my agent prompt for those agents would be very different than what we may have for SAP, right?
+23 minutes 1 second
+So those are the considerations that we will have to do as let's say this, you would be a Step 2 and then Step 3 would be, you know, what is the readiness of each and every individual.
+23 minutes 12 seconds
+We have, you know, to kind of get going.
+23 minutes 15 seconds
+So that's the context background.
+23 minutes 18 seconds
+Ask now.
+23 minutes 18 seconds
+Let me take a pause and see, you know, what are your thoughts questions before we discuss.
+23 minutes 24 seconds
+You know our next steps and action plan on this.
+23 minutes 27 seconds
+So are we looking to extract the requirements only from functional perspective or we can have a like all this process will have take inputs from technical team as well.
+23 minutes 36 seconds
+Yeah, yeah, it will be technical team effort. OK, so and.
+23 minutes 42 seconds
+So the the thought process is that when we are having these workshops, these are not just business requirements, but these are also you know a subsequent drill down in terms of what that means from a a technical perspective.
+23 minutes 53 seconds
+Now what could also be the case that you may do a business requirement workshop first.
+23 minutes 59 seconds
+And follow it up with a workshop which is a little more technical in nature, right?
+24 minutes 4 seconds
+So that could then assist in your functional design, technical design as well.
+24 minutes 9 seconds
+That's that's a possibility.
+24 minutes 12 seconds
+So I think we had a plan in place.
+24 minutes 13 seconds
+Like for what we were building.
+24 minutes 15 seconds
+So there were two things first.
+24 minutes 18 seconds
+We build this multi agentic flow for FSTS generation.
+24 minutes 22 seconds
+So what we were trying to do is like in our upcoming Sprint, we are trying to for like a deterministic and nondeterministic flow. If it's a fixed flow.
+24 minutes 32 seconds
+So we are trying to make a generic this thing.
+24 minutes 34 seconds
+So the steps we have to do, we just have to configure like step one.
+24 minutes 39 seconds
+These are the agents required if they require particular tool, we have to give them in a plain config file.
+24 minutes 44 seconds
+And this is the Step 2 step three. Like if we define that that config file will be taken and the entire thing would be running on that config file.
+24 minutes 53 seconds
+So like in a pretty fast this thing we can generate this development.
+24 minutes 59 seconds
+So what?
+25 minutes
+You're trying to do what we have done till now.
+25 minutes 2 seconds
+We were trying to general have a generic platform that plug and play the conflicts.
+25 minutes 8 seconds
+Who in the entire like from gathering the business requirement to go like whatever the steps come, we can use that piece like if.
+25 minutes 15 seconds
+Yeah.
+25 minutes 16 seconds
+Yeah. I mean, as I said, let's take a step back and think big, right?
+25 minutes 20 seconds
+Which is not just from SAP. Let's look into the use cases of non SAP world as well, right?
+25 minutes 27 seconds
+Think of the use cases of Salesforce as well, right?
+25 minutes 29 seconds
+And then say that OK.
+25 minutes 30 seconds
+Now let's take a step back and understand if this is what the workflow would look like depending on different variations that we have.
+25 minutes 38 seconds
+From the technology stack that we use.
+25 minutes 42 seconds
+Then what is the right approach and answer could well be that why not use VTP may still be an answer for us, or the answer could be that let's use the mechan AI platform wherein I can plug and play.
+25 minutes 54 seconds
+You know, each of these agents, which we, which may have been built on BTBS, right?
+26 minutes
+So when agent may have been built on TP for an FSTS creation of SAP, and that agent is invoked through that orchestration layer of AI platform from a perspective and still produce the required output that we may want, right? What we don't want is to build it on.
+26 minutes 17 seconds
+A platform which will restrict us.
+For you know, scaling the solution to every other place, right?
+26 minutes 24 seconds
+So the objective is very clear.
+26 minutes 26 seconds
+We don't want to build this for different technology stacks.
+26 minutes 29 seconds
+It.
+Has to be one goal because your requirements may come in in a way.
+26 minutes 33 seconds
+Which could well be that you know half of their development may be in SAP and the other half of that development may be in some other platform as well, right?
+26 minutes 43 seconds
+So what?
+26 minutes 43 seconds
+We don't want to do is to say, OK, if it is SAP go into that portal, initiate that.
+26 minutes 48 seconds
+And for something else, go into another portal.
+26 minutes 50 seconds
+Initiate that right.
+26 minutes 52 seconds
+So I think so, that's one objective that it has.
+26 minutes 56 seconds
+We have to try at best, as we can, to make this like 1 common approach ways of working.
+27 minutes 3 seconds
+2nd is that it has to enable plug and play approach.
+27 minutes 7 seconds
+You know that platform has to be very flexible.
+27 minutes 11 seconds
+You know, to invoke the agents from different, you know, technology stacks.
+27 minutes 15 seconds
+So. So that's another.
+27 minutes 17 seconds
+Piece that we have to be you know, very, very careful about so.
+27 minutes 21 seconds
+Understand one more thing jadee like in BTP, what we were doing, we took this EI core extended service. So it gives us access to like major 7-8 providers and close to 40 models.
+27 minutes 34 seconds
+We can anytime activate any model we test.
+27 minutes 38 seconds
+In a same scenario, we can test on multiple models simultaneously and then we validate which one is performing the best.
+27 minutes 44 seconds
+But for that we have to pay a premium, correct?
+27 minutes 48 seconds
+Oh, we have the availability at of all the models, Gemini 3 will come also soon there.
+27 minutes 53 seconds
+So.
+27 minutes 54 seconds
+That is like 5060% if I directly take Gemini from Google, that will be much cheaper. OK, if I go via this thing, right?
+28 minutes 1 second
+So that's also the one of the criteria, which is to say.
+28 minutes 5 seconds
+I will one.
+28 minutes 6 seconds
+I will experiment for that experimentation.
+28 minutes 9 seconds
+I'll have all the agents available, but then I will say that, OK, based on my experimentations for these specific use cases, these are the best fit agents.
+28 minutes 19 seconds
+Or BLLMS so I can give you experience from non SAPE side of the world that Gemini 3 is the best for anything related to requirement document generation user story generation you know as you do the deep research approach that is the the best out.
+28 minutes 35 seconds
+Comes through Gemini 3.
+28 minutes 37 seconds
+But when it comes to coding, you know GPT 5 is equally good.
+28 minutes 41 seconds
+Gemini is equally good.
+28 minutes 42 seconds
+Entropic is equally good as well right now of app we will have to do the assessment, but I'm telling you from open stack.
+28 minutes 49 seconds
+Perspective. So. So essentially we will have to always have that stream that every time a new LLM gets introduced you try to test it and see.
+28 minutes 57 seconds
+If you are getting any major improvements and if yes, then you say that OK.
+29 minutes 2 seconds
+Let's start using this while you have the enterprise license to use it.
+29 minutes 6 seconds
+Yes, in the enterprise license model.
+29 minutes 8 seconds
+What you won't have is that, hey, I have 40 and I can choose any.
+29 minutes 12 seconds
+Right, because you don't want to go into 40 contracts, right?
+29 minutes 16 seconds
+So that's where in you can use these.
+29 minutes 18 seconds
+You know, let's say we have cursor for code development in open technology stack.
+29 minutes 23 seconds
+So generally cursor provides you access to all the you know, so you have license with cursor and cursor provides you access to all the LLM.
+29 minutes 31 seconds
+So it's up to you what you want to use. Your license is still the same.
+29 minutes 34 seconds
+So those are the different ways you can kind of experiment on that, right? But but ultimately?
+29 minutes 40 seconds
+You're right.
+29 minutes 40 seconds
+What you don't want is you know to to have a a retailer in between for these LLMS because they will charge their own premium and and you know they will be more costly to consume then.
+29 minutes 52 seconds
+Let's say if you do the direct enterprise license with for those specific ones.
+29 minutes 56 seconds
+And again, sometimes you may also even say that, OK, it's 5% less in terms of the output, but it is 20% cheaper, right in terms of the the the cost.
+30 minutes 7 seconds
+So I'm trying to use a cheaper one, right?
+30 minutes 11 seconds
+So those are the trade-offs that we will have to take a decision on.
+30 minutes 14 seconds
+Second, what we're doing exactly?
+30 minutes 16 seconds
+FSTS we generate we calculate input token, output token and the cost and the model.
+30 minutes 20 seconds
+Right.
+30 minutes 21 seconds
+So we compare like what business is rating, which one and what is the trade.
+30 minutes 25 seconds
+Off. Correct. Correct.
+30 minutes 27 seconds
+So no, exactly. That's what we will have to do as well, yeah.
+30 minutes 31 seconds
+And also for that human in loop, what we were doing like what?
+30 minutes 34 seconds
+We have plans in our this thing if anything is like generated by LLM MULTIAGENTING framework. Then we were sending it to the mind box of the user like and there they will get this particular document.
+30 minutes 48 seconds
+And they're either they can approve, reject and either that is the way we were pushing that human intervention, right?
+30 minutes 55 seconds
+So I think what I am envisioning and again we can think this through, which is why you will send an offline not an offline, but let's say a e-mail notification or whatever.
+31 minutes 4 seconds
+Well, but ultimately we will need this portal as a landing page wherein an approval through e-mail is getting updated on on this portal so that it triggers the next agent, right?
+31 minutes 15 seconds
+And if in case, let's say someone is making an edit, which may be done in an offline.
+31 minutes 19 seconds
+Approach, which is the word file they are editing it, which most likely will be the case 95% of the time we are not expecting AI to be so accurate that you don't need to edit, so editing will happen and as that editing happens and someone then says.
+31 minutes 33 seconds
+That OK.
+31 minutes 33 seconds
+This is the edited version.
+31 minutes 34 seconds
+I will now go back into the portal and upload the edited version, which will then I finally approve, right?
+31 minutes 41 seconds
+So that's the cycle that we will have to take into this life cycle. And again at every step because.
+31 minutes 50 seconds
+Test cases may get modified. Technical, functional design may get modified.
+31 minutes 53 seconds
+Requirement document may got modified.
+31 minutes 55 seconds
+So all of these modifications can very well happen.
+32 minutes
+Clear right?
+32 minutes 2 seconds
+All right.
+32 minutes 3 seconds
+So then I think step #1. So I think as a group can help you guys to get started and probably you guys can start doing your brainstorming amongst yourselves.
+32 minutes 17 seconds
+The approach I want to do is I want to do a little hands off approach with you guys OK which is I want you to think of it as your ownership to this initiative, right?
+32 minutes 27 seconds
+You guys work out the timings between, you know yourselves.
+32 minutes 32 seconds
+I know not all of you are.
+100% allocated other than I believe, ANSH and I hit that.
+32 minutes 38 seconds
+Yeah, so so that's he's the only one with 100% allocated to it.
+32 minutes 42 seconds
+Others are like, you know, 50 percent, 60%.
+32 minutes 45 seconds
+So whatever that you know, case may be just figure that out.
+32 minutes 49 seconds
+Obviously keep taking input from Piyush because he has some context around what what is being built, but ultimately step number one is to envision this in terms of how this would look like from a visual perspective and how we can showcase this as an endtoend.
+33 minutes 4 seconds
+Life cycle just by a mere, you know, UI visual, right?
+33 minutes 8 seconds
+So that's the step number one. Now good news is that we have our CIO here for the next week.
+33 minutes 15 seconds
+So you have a target of Thursday or Friday build something that we can even demonstrate to him.
+33 minutes 20 seconds
+As a visual right, not as a working agent or anything.
+33 minutes 23 seconds
+Just a visual of how this workflow would look like, right?
+33 minutes 25 seconds
+So that we can, you know, get his perspective up front.
+33 minutes 31 seconds
+Right. So that's point number action #1.
+33 minutes 34 seconds
+Action number 2 is, I think once you are done with step one, I think we will need a workshops internally in terms of what we believe is the right architecture that we can put in place for this.
+33 minutes 48 seconds
+Again, I'll give you guys time to think through.
+33 minutes 53 seconds
+Brainstorm and put options on plate. You know you have option number 123.
+33 minutes 57 seconds
+What if I use Sapp TPP?
+33 minutes 59 seconds
+What if I use and?
+34 minutes 1 second
+A common AI stack for McCain, which will then plug and play with different technology stacks underneath.
+34 minutes 11 seconds
+So that's the you know second step.
+34 minutes 14 seconds
+I'll let you guys think through and see what is the best ETA that you can give us as to when we can.
+34 minutes 20 seconds
+Look at the first draft.
+34 minutes 21 seconds
+Or I can look at the first draft and get your thoughts and then give my thoughts and then obviously we can iterate on it.
+34 minutes 28 seconds
+And then I think the next would be to start, once we have the visual clear, how do we want to build once we have the architecture clear on what we want to build.
+34 minutes 39 seconds
+Right then I will have to make sure that you guys are enabled on that architecture whether it is SAP or something else. So that you have access to those platforms and everything.
+34 minutes 47 seconds
+And then you know, then it is more about putting a very detailed execution plan, which will then track ourselves to be ready.
+34 minutes 56 seconds
+The intent is that this SDLC is something that we are ready by end of March.
+35 minutes 2 seconds
+Which is a working use case. We use two to three months to iterate, test, validate different scenarios on it.
+35 minutes 12 seconds
+So by the time we are getting into phase two, somewhere in September.
+35 minutes 17 seconds
+Kind of a time frame for next then. This is a tool set which is fully ready, validated thought through.
+35 minutes 24 seconds
+Good to go. Kind of a thing in Phase 2, right?
+35 minutes 27 seconds
+So. So that's the plan target for this particular piece.
+35 minutes 33 seconds
+There is another piece which I think I'll do a session later on with you guys that in parallel we may want to do POC which are specific for business use cases, right?
+35 minutes 44 seconds
+You know, agents for order creation agents for order change those kind of use cases for which we may do minor POCs.
+35 minutes 53 seconds
+You know.
+35 minutes 53 seconds
+Just to validate that whether there are things that we can build specifically on SAP Jule platforms like these are perfect cases of what you do on SAP Jule, right? So.
+36 minutes 6 seconds
+You know, but, but that would be a next step. You know, as as I align that that approach with with the leadership.
+36 minutes 15 seconds
+Like one more thing like SAP have something called Discovery Center.
+36 minutes 18 seconds
+Uh-huh. So in the business AI services, they keep on adding the agents like in 2-3 months only, they added 203 hundred plus agents, right?
+36 minutes 19 seconds
+Huh.
+36 minutes 26 seconds
+So they're like, even for our Nam dispute management, we are starting that.
+36 minutes 31 seconds
+So for that they have very basic agents they're covering.
+36 minutes 34 seconds
+Or from there also we can take up and it could be between if we can show something on.
+36 minutes 38 seconds
+No, absolutely, absolutely.
+36 minutes 39 seconds
+So that's what I'm saying that.
+36 minutes 42 seconds
+What I don't. So what we have to ensure is that we're not working on any use case which is not aligned with me. Just so that you know, the reason I'm saying this is that what we are trying to do is.
+36 minutes 56 seconds
+I explained to you the other side of the branch, which is the process reimagination and all we want to gel that story with that which is that we looked at an order intake process.
+37 minutes 8 seconds
+These are the pain points that we have with the current as is, who address those pain points we see.
+37 minutes 14 seconds
+These are the opportunities of the agents and we then build that specific agent right.
+37 minutes 19 seconds
+So I just said order Creation Agent order update agent and I'm pretty sure Jules will have those, right.
+37 minutes 26 seconds
+To to to your point, bang on that we would want to quickly test, validate.
+37 minutes 31 seconds
+How can I just get an e-mail and from an e-mail I can read the e-mail and create an order?
+37 minutes 36 seconds
+Right. So those are the kind of agents that we would want to build.
+37 minutes 40 seconds
+Those are the ones wherein I am gonna sell it to the leadership that these are the use cases we wanna do and showcase to you and the business stakeholders so that when we build something is it part of that, you know story line that we are doing right.
+37 minutes 57 seconds
+You know, so can we do many? Yes, absolutely.
+38 minutes
+But I'm just trying to say that let's let's focus our energies on, let's say we're in the story line is being built from an end to end perspective.
+38 minutes 8 seconds
+This has also a lot of interplay between there is another initiative just so that you know what we are saying as a AI labs initiative within within McCain wherein we are building a reference architecture of how we want to.
+38 minutes 23 seconds
+Build AI use cases in the future within McCain.
+38 minutes 28 seconds
+Which keeps in consideration that we will have different technology stacks. Each of these technology stacks will have default agents built into it, right?
+38 minutes 37 seconds
+But you know, while in many cases those individual agents would be of great value to me, but in certain specific use cases, I may have to build agents which are outside these boxes.
+38 minutes 49 seconds
+Because I may want an agent which is doing 3 actions.
+38 minutes 53 seconds
+One of that action is in SAP.
+38 minutes 55 seconds
+Another action is in sales force.
+38 minutes 56 seconds
+Another action is in somewhere else, right?
+Then I can't have.
+39 minutes
+It's hard for me to make sure that agent in SAP talks to an agent in sales force and talks to an agent somewhere else.
+39 minutes 8 seconds
+Then I may have to do it a little differently with an orchestration layer which is built outside these platforms, right?
+39 minutes 13 seconds
+So there is a larger architectural alignment going on.
+39 minutes 17 seconds
+And there is common sense that common sense would mean tell me that if the order is to be created in SAP, right?
+39 minutes 23 seconds
+And that's the specific objective of an agent. Then I don't need to go to those layers and then do it in in SAP itself.
+39 minutes 29 seconds
+So you know, but all I'm saying is that if you are trying to think through of any such agent, just align with me and let's focus our energies on that.
+39 minutes 38 seconds
+I'm trying to sell to the leadership so that, you know, we energize our activities there and then showcase the output according to that story.
+39 minutes 49 seconds
+Here.
+39 minutes 51 seconds
+All right, son, I think good discussion now.
+39 minutes 56 seconds
+Action is on you guys.
+39 minutes 58 seconds
+Let's try and build something that we can visualize next week, Wednesday, quick touchpoint.
+40 minutes 5 seconds
+OK.
+40 minutes 6 seconds
+So let's have a minute touchpoint on Wednesday next week in in office.
+40 minutes 10 seconds
+See what you guys are able to turn around, Tom.
+40 minutes 14 seconds
+Yeah, I think you will need to sit with because as of now, you will the only one having access to pigma, UX pilot and others use them and see if you can get trial access outside.
+40 minutes 26 seconds
+You know our license world.
+40 minutes 29 seconds
+So that if they can get the trial access, then maybe it helps you accelerate some of the work that you may have to do.
+40 minutes 34 seconds
+But I'll let you guys align on that particular.
+40 minutes 37 seconds
+So.
+40 minutes 37 seconds
+Just one note, in the first UI design we have to make, do we have to finalize the agents we are using or?
+40 minutes 44 seconds
+Just the flow.
+40 minutes 45 seconds
+Just the flow.
+40 minutes 46 seconds
+As of now, just the flow, not the focus, is not any agent. My intent is.
+40 minutes 52 seconds
+Story Butana is easy Jabu.
+40 minutes 54 seconds
+Visually, let's say CIO's. Visually, they can.
+40 minutes 59 seconds
+They will understand getcha.
+41 minutes 1 second
+What are we even talking about?
+41 minutes 2 seconds
+Requirement document upload Kia, you know, let's say.
+41 minutes 8 seconds
+Transcripts KA or business requirement document, right?
+41 minutes 12 seconds
+So that's the kind of you know.
+41 minutes 15 seconds
+Impact. I want to generate using visual. This is essentially the.
+41 minutes 18 seconds
+Right here.
+41 minutes 20 seconds
+Take a slide with the Khana versus visually, the Khana is a is a different.
+41 minutes 26 seconds
+Hey question or Taki Jomar end to end processor requirement gathering simulator.
+41 minutes 32 seconds
+Offline model.
+41 minutes 34 seconds
+Options consider Kanika boss simpler task provide 2.
+41 minutes 38 seconds
+Try to absolutely. I mean, I'm not saying that this is the mandated path over here, right?
+41 minutes 44 seconds
+Other plant naya banana. This is not a mandate to go through this lifecycle. If you want to offline generate you know a requirement document. You can do so because ultimately.
+41 minutes 56 seconds
+Project tracking to this is more of an AI assisted development tracker.
+42 minutes 2 seconds
+It's not a project tracker, it is more about, yeah.
+42 minutes 7 seconds
+Requirement AI assisted paths.
+42 minutes 10 seconds
+Deploy Karna right.
+42 minutes 11 seconds
+Two agents merely required output. Generate Kirkimuji is essentially what the objective here is.
+42 minutes 18 seconds
+Miss Kamala endtoend, observability.
+42 minutes 21 seconds
+And we have to track back.
+42 minutes 24 seconds
+The edge cases.
+42 minutes 26 seconds
+I think we will discuss this. You know, these are like CHA requirement document.
+42 minutes 32 seconds
+Document, yeah.
+42 minutes 33 seconds
+So we have to.
+42 minutes 35 seconds
+Track my call.
+42 minutes 35 seconds
+We we will have to kind of do that, but yes, those are nitty gritty of you know how how we get into those negative.
+42 minutes 43 seconds
+Use cases, right? Negative testing of this tool itself, where that's where in I'm thinking about.
+42 minutes 50 seconds
+You know Feb March Q into that.
+42 minutes 52 seconds
+Then we use 3-4 months to, you know, go into those kind of scenarios. Get what if this? What if this? What if someone just comes with a functional design and say get requirement for functional design?
+42 minutes 54 seconds
+Yeah.
+43 minutes 3 seconds
+They don't, right?
+43 minutes 5 seconds
+So all those kind of variation scenarios, we will then work this through in terms of.
+43 minutes 11 seconds
+Taking it forward, OK.
+43 minutes 13 seconds
+In other cases, I may just come in and say, hey, step.
+43 minutes 18 seconds
+Hanie.
+43 minutes 18 seconds
+Right to me to process flow diagram.
+43 minutes 20 seconds
+Test case. I'm not too worried, right?
+43 minutes 23 seconds
+So it's essentially that kind of a thing that we will then have to work through, OK.
+43 minutes 27 seconds
+Different approaches for.
+43 minutes 32 seconds
+Alright, cool. Yeah.
+

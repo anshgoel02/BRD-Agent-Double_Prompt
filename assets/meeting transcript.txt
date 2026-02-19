@@ -1,0 +1,2877 @@
+﻿RnD Sensory - Roadmap Discussion-20250530_173643-Meeting Recording
+May 30, 2025, 12:06PM
+1h 52m 11s
+
+SHARMA, DEEPAK started transcription
+
+LI, ANGELA   0:06
+This is the project details we share with.
+The data analytic team and also we use this the same slide share with the RNTO to give the details of all the project we are working on.
+So we initiated the project last year.
+Trying to empower our R&D sensory user experience team and our own team and data from team to drive data like product and consumer insight with efficiency and accuracy and accuracy.
+Right now we start.
+We realize we can just start with the data. What we have basically our whole team on that part of Java.
+O that which is the.
+Sensory testing data and also our own teams test data.
+So on the top is the workflow and then Jen also can give you a little bit more detail on that front.
+So the niece right here, we do not have a a system tool for R&D, sensory user experience data. And we saw that you know that we have a lot of challenges.
+So if we want to go back to historical data, all the data are transactional.
+If you want to drive any trend, we'll be very challenging.
+Without a systematic tool and we did experience some scenario like this and sometime could take days or even you know a month to figure out. Hey, what we got from historical data, can we draw some conclusion out in size?
+
+SHARMA, DEEPAK   1:45
+OK, OK. So the various, I'm sorry, I'm interrupting you, Angela, it is.
+
+LI, ANGELA   1:46
+And we didn't notice, yes.
+
+SHARMA, DEEPAK   1:52
+The IT is the. Maybe the test on the different recipes that you have.
+You collect that data and that is called the sensory data.
+
+LI, ANGELA   2:01
+Yeah. So this is the test scope.
+
+SHARMA, DEEPAK   2:02
+OK.
+
+LI, ANGELA   2:05
+So there are two type of tests. One is majority actually done by external partners.
+So when our sensory team work with our product developer team and the marketing team, they realize hey, we need to do some sensory performance tests on certain products. They would send those products to external third party, they accredit sensory agency.
+
+SHARMA, DEEPAK   2:31
+OK.
+
+LI, ANGELA   2:32
+Either they do consumer testing, so almost like survey. You know your they recruit a consumer.
+From local region and then they come to a central location and to complete certain survey taste the product and they gave all different feedback.
+So normally they complete partly, so this is the test data we are talking about.
+And also there's another type of data we call descriptive analysis.
+
+SHARMA, DEEPAK   2:54
+OK.
+
+LI, ANGELA   2:59
+So those agency they also have.
+Have a special train panel.
+They you can take them as a human sensory instrument.
+So for example, they taste the fry.
+They have a certain reference.
+On the certain scale, they can tell you this Friday on Christmas is five or six days on that scale.
+And they do.
+
+SHARMA, DEEPAK   3:23
+OK.
+
+LI, ANGELA   3:23
+They have been trained, you know, extensively in order to give you accurate reading on those attribute. So they can evaluate like more than 20 different attributes.
+So they taste the products they give you, reading pretty much almost simultaneously.
+All those attributes.
+
+SHARMA, DEEPAK   3:43
+OK, OK.
+
+LI, ANGELA   3:43
+But sometime in a few minutes.
+But anyway, there are two different type of tasks.
+One is called describe analysis, another consumer type.
+So this is the sensory user experience data we are talking about. And I was saying in current database take probably 94% of the data in the whole database and and on this we also have some.
+In order to have test data, you have to know some sample information so you know I'll fry products it's not ready to do product if you cook them differently.
+If you pretty, you hold them in the different protocol.
+
+SHARMA, DEEPAK   4:19
+Mm hmm.
+
+LI, ANGELA   4:22
+Sometimes we use the deliver protocol.
+We put the fry, you know, in the in the sleeve and the sleeve. Go to paper bag paper bag to go to the deliver bag.
+For the full 20 minutes, so even a small detail change that would affect performance sensor performance.
+
+SHARMA, DEEPAK   4:38
+OK.
+
+LI, ANGELA   4:39
+So that information how we prepare the samples, also meticulous recorded in the database.
+
+SHARMA, DEEPAK   4:43
+Mm hmm.
+OK.
+
+LI, ANGELA   4:49
+And also the data apps need to capture that information.
+
+SHARMA, DEEPAK   4:52
+OK.
+
+LI, ANGELA   4:52
+So analytical part is just small thing and then we do that internally we can have use instrument to measure instrument measure chrisness.
+Can measure fat, moisture, salt or different things.
+It's just using instrument.
+So that part is fairly easy, but the most challenging part is the sensory part.
+
+SHARMA, DEEPAK   5:07
+Uh huh.
+OK, OK.
+
+LI, ANGELA   5:12
+So.
+Further information about that scope is test background information.
+Of course, we have to know, was this testable?
+We have a different business strategy.
+Such as a part of stewardship, original or global innovation.
+All those things.
+So we have.
+Pretty expensive category.
+We can relate to what this test for.
+
+SHARMA, DEEPAK   5:40
+OK.
+
+LI, ANGELA   5:40
+And the rest, I think already cover in terms of product information, very limited. Right now only a product SKU and product log code and the some is that the FRY product IP tizer. So very basic information, but we do not have further context for the product information but.
+We recognize this is opportunity.
+Because we have a very ambitious goal.
+Uh, Paula, I think at least also mention that to you last week.
+
+SHARMA, DEEPAK   6:03
+Mm hmm.
+
+LI, ANGELA   6:07
+We want to achieve predictive analytics, even innovation using our smart data analytics.
+
+SHARMA, DEEPAK   6:14
+Yeah.
+
+LI, ANGELA   6:15
+To for product development rather than right now or product developer if they got that assignment working on some new products they have to work from the scratch you know on the bench and get the sample and try something and it doesn't work and try another thing.
+
+SMITH, PAULA   6:26
+Mm hmm.
+
+LI, ANGELA   6:30
+But if we have accumulated structured innovation data, including the product information.
+All in all, structured database we can actually achieve predict analytics actually based on the historical information.
+To to give up a new product and on the product development side. Then they can just do some validation.
+
+SMITH, PAULA   6:52
+And and.
+
+SHARMA, DEEPAK   6:53
+OK.
+
+SMITH, PAULA   6:56
+And Angela, when you talk about the predictive that's predicting whether like predicting the the formulation, whether that will be successful.
+Is it that level that you're predicting? Yeah. So it's.
+
+LI, ANGELA   7:08
+That's the not right now.
+
+SMITH, PAULA   7:11
+No, no, that's no.
+But it's good to know. And like I'm curious whether you've looked at any outside solutions for that use case, yeah.
+
+LI, ANGELA   7:19
+Yes, I think I we had a discussion with you. That was the last was that early this year or last year.
+
+SMITH, PAULA   7:25
+Trace game.
+
+LI, ANGELA   7:26
+Tristan. Yes, yes, yes, that's the part.
+
+SMITH, PAULA   7:28
+Yeah. OK.
+OK.
+
+LI, ANGELA   7:31
+So what we want to achieve ideal scenario. For example hey, we want to further reduce sodium on this product, but how this going to affect the performance and then then based on historical data you know formulation process data and also sensory performance?
+And I need to call data if all there we can actually predict if we reduce let's say sorting by 10%, all the sensory performance you know will be and then we just need to play around a little bit rather than start from over.
+
+SMITH, PAULA   7:51
+Mm hmm.
+But they yeah.
+Yeah, absolutely.
+Yeah. Yep, exactly.
+I did capture the trace gains as the opportunity there.
+So, Anna, you imagining that this would this would be the data feed into an application, or you're thinking we should even build our own.
+I'm just curious what your thoughts are on that.
+
+LI, ANGELA   8:15
+No, I don't.
+We should build our own.
+So right now, the sensory use completely is build our own customized. Yeah. Gen. AI will put our heart and soul into figure everything.
+
+SMITH, PAULA   8:18
+OK.
+It's just, yes.
+
+LI, ANGELA   8:26
+It's way more company than we originally expected, but at least we achieve that.
+
+SMITH, PAULA   8:29
+Yes.
+
+LI, ANGELA   8:30
+But we realize this is just a small piece and that the product information that's way more complicated and there are different layer of the database we need to.
+
+SMITH, PAULA   8:33
+OK.
+
+LI, ANGELA   8:41
+Connect to we definitely and also.
+For product developer, there's a major challenge that currently we do not have.
+We need to have a easy way to maintain the supplier in grading information. So for example we get some in the gradient from.
+In gradient you know it's a a food company, food ingredient company and they may actually update their spec for certain ingred from time to time.
+They also provide COA all the allergen information, all the relevant information, but that's not the static information from time to time, we have to update.
+There's a lot of information if we rely on R&D staff to do that. I discuss with them.
+
+SMITH, PAULA   9:28
+Hmm.
+
+LI, ANGELA   9:28
+That's impossible.
+
+SMITH, PAULA   9:30
+Yes, I agree. OK.
+
+LI, ANGELA   9:30
+We that's not our job.
+We shouldn't do that.
+But twisting actually can maintain that in the using their system.
+
+SMITH, PAULA   9:33
+Yeah.
+
+LI, ANGELA   9:39
+Yeah.
+
+SMITH, PAULA   9:39
+OK.
+Good. I was just checking.
+Yeah, OK, sounds good. Agree.
+
+LI, ANGELA   9:42
+Yeah. OK. All right.
+So I think that covers overall the project details. What we are trying to achieve, let me see is, yeah.
+So this is the mall, you know.
+Talking about the business impact, I think I covered that briefly and how this going to have all work.
+
+SHARMA, DEEPAK   10:01
+Mm hmm.
+
+LI, ANGELA   10:03
+I'm not going to go through the details.
+Yeah. I think in terms of the actual content.
+What's this app for?
+I think it covered that, but let me see some thing.
+
+SHARMA, DEEPAK   10:19
+Just one one thing here, Angela, a while back you said the third parties are also involved.
+I mean in, in, in a part of the overall process, do they also have access to the application, the R&D analytic application?
+
+LI, ANGELA   10:31
+Yes, yes. They only have their part.
+
+SHARMA, DEEPAK   10:34
+OK.
+
+LI, ANGELA   10:36
+They need to provide the data for which they have to give us access.
+
+SHARMA, DEEPAK   10:36
+OK.
+
+LI, ANGELA   10:40
+Yeah, we have to give them access.
+So they we have a special interface just for vendor to upload information, fill out their proposal form.
+
+SHARMA, DEEPAK   10:50
+OK. And are they part of say the, I just wanna know how they are authenticated?
+
+LI, ANGELA   10:51
+Yeah.
+
+SHARMA, DEEPAK   10:55
+Are they part of the ad? McCain ad group that we have or a separate user ID and password is given to them to access this application?
+
+LI, ANGELA   11:04
+A separate user ID.
+
+SHARMA, DEEPAK   11:05
+Separate.
+
+LI, ANGELA   11:05
+Yeah, based on their e-mail, yeah.
+
+SHARMA, DEEPAK   11:07
+OK.
+
+LI, ANGELA   11:11
+Hmm.
+Yeah, before I.
+Finish the overall.
+Description of this project.
+This is what where I'm talking about. Also Paula in terms of you know, our grand goal as you can see right now we only have.
+This data covered, but we want to cover everything material attribute process, parameter attribute. So right now they are not in the database.
+But we build in the way we think. If later there are other different system to capture those data, we can definitely we saw.
+A current data base.
+
+SHARMA, DEEPAK   11:56
+Yeah. Thanks, Angela. Yeah.
+
+LI, ANGELA   11:57
+OK.
+So with that.
+I'm wondering, maybe I can pass on to Jen.
+Give them a quick walkthrough on the app and workflow.
+
+SOONG, JENN   12:10
+Yeah, I can do that.
+
+LI, ANGELA   12:10
+Or maybe even BI report.
+Oh, before Jan starts, do you have any questions regarding the what we are trying to achieve with this project?
+
+SHARMA, DEEPAK   12:29
+At this point in time, I'm clear.
+I mean say in this slide is giving that also giving a visibility to me what is currently available in the three blocks in the amber color are the upcoming features that you're looking for in the application?
+
+LI, ANGELA   12:41
+OK. All right.
+
+SOONG, JENN   12:45
+OK.
+I thought I would just start off with a brief look at.
+Some information the vendor gave us when they were developing the system, so I I just have the high level architecture diagram open. There's like three main.
+Sections that they have outlined, it's the stakeholders portal.
+So that's all the internal McCain stakeholders.
+And then there was the vendor portal.
+And then there's something called the transformation module.
+So these are the three main parts, I guess to the the application.
+The stakeholders portal.
+It basically collects all the information from our internal users.
+There's different user rules, for example, Angela and I have data admin role, so we have a bit more features in our view of the app, but usually.
+Other roles like the R&D leads, sensory leads, line manager, sensory director.
+They just have access to their own tests and their peers completed tests.
+
+SHARMA, DEEPAK   14:04
+OK.
+
+SOONG, JENN   14:05
+Then yeah, there's a few details.
+On that, the vendors, yeah, they only can submit information and they see very limited information back basically.
+The the proposal.
+Request they can see certain details so that they can come up with their proposal and then.
+The sample information they see how they need to prepare the samples in order to conduct the testing.
+And then there's different area for them to submit their test results or reports to the team.
+
+SHARMA, DEEPAK   14:46
+And what is this notification module in the vendors portal? I believe this vendor portal is is the the third party users.
+
+SOONG, JENN   14:53
+Yeah. So when they submit anything, then the sensory lead gets an e-mail that something has been submitted.
+
+SHARMA, DEEPAK   14:54
+OK.
+OK.
+
+SOONG, JENN   15:02
+So they can go check what it is.
+I think that's what they meant.
+
+SHARMA, DEEPAK   15:05
+OK.
+
+SOONG, JENN   15:07
+And then transformation module.
+So there's a section in the in the workflow where.
+We receive data from the vendors.
+And there are a few different formats of data that we receive like we tried to get them to standardize to a template to a certain extent. But just due to the nature of the testing and the different vendors we work with.
+This we can't ask them to exactly submit it in the same way all the time.
+So we have this kind of transformation engine, we call it data transformation engine that kind of takes that raw data.
+And transforms it into a version that can be ingested into the database, and they use a certain.
+Solution.
+
+SHARMA, DEEPAK   16:02
+For reporting I believe.
+
+SOONG, JENN   16:06
+For.
+Or just to. Yeah. So to prepare it for our power BI report, yeah.
+
+SHARMA, DEEPAK   16:07
+Our BI report that I think Angela just mentioned, yeah.
+OK.
+
+SOONG, JENN   16:14
+Yeah. So that's, yeah, some data cleaning question mapping and data restructuring.
+That's what it does.
+So that's a bit of a high level background of the different components of the solution.
+And then this is Oh yeah.
+
+SHARMA, DEEPAK   16:30
+And just just few few questions on this, if you can come back to this.
+So I understand.
+
+SOONG, JENN   16:35
+OK.
+
+SHARMA, DEEPAK   16:36
+I mean, there would be certain background jobs running transforming the data to the desired level which can be used to.
+I mean which which is being used for the power BI reports. If you go above the vendor vendor portal.
+So here we have one role which is vendor and they are able to do these kind of three different actions like vendor proposal, submission, accept completion and.
+
+SOONG, JENN   16:53
+Mm hmm.
+Yes.
+
+SHARMA, DEEPAK   16:59
+To test result submission similarly on the just to move above.
+
+SOONG, JENN   17:01
+Yeah.
+
+SHARMA, DEEPAK   17:05
+So in this stakeholders model, I mean what are the different roles like in vendor you only have vendor in this who who like you said as admin you have some additional access but apart from admin what other rules are available in?
+
+SOONG, JENN   17:12
+Yeah.
+Yeah, I'll go into that with our workflow.
+
+SHARMA, DEEPAK   17:23
+OK.
+I'm sorry, then, yeah.
+
+SOONG, JENN   17:24
+Actually, let me see.
+There's a version that I have that shows the different roles.
+So here.
+There's the sensory UX lead.
+So that's the sensory lead.
+Who will do most of the the information submission?
+There's line manager and sensory director, so they are involved in certain approval processes.
+And there's an R&D lead.
+They help with submitting sample information.
+And then the vendor is separate.
+There's also data admin, so that's not shown here, but I can show our view of the app afterwards.
+And also there's analytical leads. So there's another workflow that's a little less complicated than the sensory workflow for our analytical team members.
+They would submit certain project information and data, but there's no approval.
+Processes involved so.
+That's a little bit different.
+
+SHARMA, DEEPAK   18:34
+OK. And OK, is is this it doesn't looks like apdf.
+I mean, which software are you using to show this?
+
+SOONG, JENN   18:43
+Sorry.
+
+SHARMA, DEEPAK   18:44
+I mean, which I mean, is this a?
+I mean, what is the software you're using?
+What I'm able to assume is that these are the the different screens of the application and the action by the different tools as it is performed on the application.
+So it could be very helpful for us.
+
+SOONG, JENN   18:59
+Yeah.
+
+SHARMA, DEEPAK   19:00
+Just wanted to know have you opened this in a PDF viewer or some?
+
+SOONG, JENN   19:04
+Oh, I think this is Vizio.
+
+SHARMA, DEEPAK   19:07
+Ratio, OK, yeah.
+
+SOONG, JENN   19:08
+Yeah.
+Yeah.
+
+LI, ANGELA   19:13
+Oh Deepak, the file location actually is the included in the file link.
+In the in my workspace Azure with you.
+
+SHARMA, DEEPAK   19:24
+OK.
+
+SOONG, JENN   19:29
+Yeah. So going back though, let me see.
+Sorry, there's a few different ways we can show it, so I'll just briefly, this is a very high level. The difference between the sensory workflow and analytical workflow.
+So there's like login and dashboards for each role, but for sensory workflow there's.
+A proposal request creation the vendor submit their proposals.
+Those are proposals like that stage of information gets approved by the line manager and sensory director.
+Then they submit certain information about their budget and then they have a test creation and test completion data upload.
+Steps, whereas the analytical workflow, a lot of those steps are removed.
+It's just they create the test.
+They plan the test with the sample information and then they they upload the data.
+So there's all the stuff related to the vendors and line manager sensory director that's a bit more complex is part of the sensory.
+
+SHARMA, DEEPAK   20:46
+Workflow OK.
+
+SOONG, JENN   20:47
+Workflow.
+Yeah.
+
+SMITH, PAULA   20:49
+Jen just remind me what's what is the outcome of the what?
+What's the data of the analytical workflow?
+It's just a sample.
+
+SOONG, JENN   20:56
+Yeah.
+
+SMITH, PAULA   20:57
+Yeah, sorry, just cover that again.
+
+SOONG, JENN   20:58
+So, so the analytical workflow that's for our analytical team internally.
+So it's some internal testing done by instrument measurements, so it could be things like if they measure those same products but they measure like the temperature, the texture, the oil.
+
+SMITH, PAULA   21:11
+OK.
+
+SOONG, JENN   21:22
+Different things like this.
+But yeah.
+
+SMITH, PAULA   21:26
+So it OK, got it.
+So the top one is more external and the bottom one is internal, but it's the same kind of data at the end of the day.
+Or is it quite different?
+
+SOONG, JENN   21:36
+It's different.
+So the top one is external and it's sensory data.
+So sensory is human perception, so it'll be either the consumer testing or descriptive which is meant to be more objective but analytical.
+
+SMITH, PAULA   21:44
+Yep.
+
+SOONG, JENN   21:54
+It's instrument measures, so it's just measuring the product still but different attributes.
+
+SMITH, PAULA   21:56
+OK.
+Got it, alright.
+
+SOONG, JENN   22:02
+Aspects of the product.
+
+SMITH, PAULA   22:03
+OK, so the technical aspects of the product, right?
+Got it.
+
+SOONG, JENN   22:06
+Mm hmm.
+
+SMITH, PAULA   22:06
+Thank you for just reminding me of that the terminology. Thank you.
+
+SOONG, JENN   22:09
+No problem.
+Yeah. So those are the two different, yeah.
+
+SHARMA, DEEPAK   22:12
+And Jen, what is this budget PO reminder.
+
+SOONG, JENN   22:17
+Oh, it's. It's actually just one of the fields that they.
+
+SHARMA, DEEPAK   22:21
+Enter.
+
+SOONG, JENN   22:21
+Input they don't.
+It doesn't connect with our budget system or anything.
+It's just for the team's tracking.
+It's just another.
+Piece of the project information.
+
+SHARMA, DEEPAK   22:36
+OK.
+
+SOONG, JENN   22:37
+Let me see.
+Yeah, so here's the workflow and notification diagram.
+It kind of outlines the same process.
+This is for the sensory workflow.
+But it just reminds the team, I think what?
+Different steps are involved in each stage of the workflow.
+And the notifications? The blue boxes above. I think those are the.
+
+SHARMA, DEEPAK   23:19
+Mm hmm.
+
+SOONG, JENN   23:22
+Workflow statuses that will show in the dashboard at each stage, so the team knows when it says this status.
+These steps need to be completed.
+The notification.
+Diagram.
+Yeah, so I think.
+Next.
+Actually, maybe this screen is better.
+Show the workflow.
+Yeah. So everyone has, like access to their dashboard. And then when the sensory lead starts a test.
+Will be taken to this request for a proposal screen where they enter certain fields of information.
+And then.
+That gets sent down to the vendor, so the vendor sees that information.
+That was sent and they submit.
+A proposal in and there could be multiple vendors that submit proposals.
+So the sensory lead will look at the different options and choose the best one.
+Or sometimes they only send it to one.
+So the the see what was submitted and then.
+Continue from there and there's a few more sections that they fill out.
+We call it the one pager.
+That's kind of giving the manager and director a brief of what the project is, the bro. So once the sensory lead has the proposal from the vendor, along with the brief information they send it to the line manager and director and it goes through an approval process, so.
+They they view the details, they can provide comments, they can approve it through or they can send it back to the sensor.
+Re lead requesting a change.
+So there's this.
+Approval cycle that happens here and then once it's approved.
+The sensory lead clicks to sign off and that just lets the vendor know that.
+Their proposal has been accepted.
+They will be starting the test.
+And the sensory lead submits the sample information form to the R&D lead.
+So the R&D lead gets that notification and provides information about the products that needs to be tested.
+And how to prepare them and they send that sample information form shortened to SIF in many cases back to the sensory lead.
+Then the sensory lead will send that form to the vendor.
+So the vendor gets the product details and what they need to do is.
+Enter what code they use for each product in their testing. So.
+By code I mean.
+They'll.
+Either give it a a numeric digit to blind the product, or the just write a sample name, but it matches what the sample will be called in the raw data that they submit later on.
+So this way we can match the products to the raw data.
+And then the.
+There's one section that's called micro clearance form, so in cases where.
+The samples are not from production, but they're produced on a pilot line, for example.
+Then we get microbiological testing to ensure food safety.
+So the R&D completes that acknowledgement.
+So the vendor sees that it has been cleared and they're safe to consume for the testing.
+ING.
+And then the vendor has a screen where there's different sections for them to upload data or reports. So once they complete the testing, they'll upload the corresponding files to which which section.
+They submit to and then that goes back to the sensory lead.
+The sensory lead takes that information and makes a report.
+For.
+Their study.
+And they submit that report for the line manager and director to review.
+So there's another approval cycle here where they can view the report, send it back for comments or approve it through. So this happens here.
+And then there's one more.
+Step that the sensory lead can do once they upload their report.
+There's a link or acknowledgement that they have uploaded their report and that concludes the test.
+And then concluded tests get whoops.
+Concluded test well, they go to a completed test view of the dashboard where it just like a view mode of the test. They can go back into past tests and view what information had been entered or submitted.
+
+SHARMA, DEEPAK   29:29
+OK.
+
+SOONG, JENN   29:31
+And then all this is to feed into the power BI reports so we can see things like all the different products that had been tested.
+Different results.
+And we can like choose which products to show in there.
+See how many tests have been cleared completed by different regions, different test types?
+This kind of thing.
+The app, so this is the I have the admin view of the app. Usually users would only see probably completed test notifications and their own dashboard.
+
+SHARMA, DEEPAK   30:07
+Mm hmm.
+
+SOONG, JENN   30:15
+All these other things are admin features.
+And I also see everybody's test in the dashboard as an admin, but usually users will only view their active tests in this active test view.
+And I can also see the analytical tests or the sensory tests as an admin.
+Yeah.
+
+SHARMA, DEEPAK   30:47
+OK.
+
+SOONG, JENN   30:47
+And then the completed test, those are just.
+So the the team can see each other's completed test, they can see all the tests that had been completed and I'll go into one to see to show what it looks like. So the RFP details that was like when the sensory lead first initiated the test, so.
+There's some RFP details telling the vendor.
+What the request and background is, then we get the vendor details.
+The cost estimate the proposal.
+So if I click that I could download the proposal that the vendor had submitted for that.
+The one pager details.
+So that was for the line manager and sensory director to approve a few more details about the project and different things they will do with the results or how they will conduct the testing.
+And then.
+Further products.
+Project information.
+There's a few more fields here.
+The the Budget PO information.
+It just tracks like the PO number when it was raised or received.
+Cost and then at the bottom there's.
+Links to the sample information form.
+So for example, I could go in and see.
+What sample details were there were so the sample information format has?
+A few different pages.
+There's first the product information page, then the cooking.
+Instructions page and then the the whole thing.
+Protocol.
+Part.
+And each page takes a little bit of information from the previous page just to show what sample it was.
+But since there were so much information needing to be entered and sometimes copied into.
+Different samples. That's how the this form was organized.
+And there's a summary at the end where you can just see the whole form for each sample.
+Well.
+
+SHARMA, DEEPAK   33:15
+What is the phone factor, Jane?
+I mean as the data is being entered say in this application, is this I mean is the user using a laptop or a tablet to enter the send to the data?
+
+SOONG, JENN   33:26
+Yeah, this is on laptop only.
+Just 'cause. It's so much to enter.
+
+SHARMA, DEEPAK   33:30
+OK.
+To sign it significantly, scroll both sides, yeah.
+
+SOONG, JENN   33:36
+Yeah. Yeah, exactly.
+And then for the vendor, their view of the sample information form, they just they just enter the codes for each sample.
+We ask them to check the log codes for the products.
+So those are captured, but otherwise it's just a viewing of what the.
+R&D lead had entered.
+Then we also have them.
+Uh indicate what equipment they used for the test. So for each vendor we have some equipment on file or they can add.
+Their own new entries, if it's not from the ones already existing in the database.
+
+SHARMA, DEEPAK   34:19
+Haha.
+
+SOONG, JENN   34:19
+And there's a a page that shows this test didn't have like delivery scenario, so it doesn't really show much but say we have them.
+Simulate a takeout or delivery scenario.
+We might show what kind of packaging to use to tell them.
+That kind of detail.
+And then the last page is a summary again of all that information.
+The micro clearance form.
+It's it they only enter.
+Information is the date, so that's by the R&D lead.
+They would enter when the micro clearance was received or completed and then submit them.
+And then the vendor files.
+So these are the different sections that the vendor can submit files to.
+And if they had submitted anything.
+In a section, when I click the download arrow, I would get whatever they had.
+Submitted in that section.
+And the same for the McCain report that was submitted by the sensory lead.
+I could access that.
+2.
+That's a completed test.
+And then in the active test, there's there's proposals and test ID.
+So basically proposal is anything before the first approval stage.
+So the RFP information, the one pager.
+And then like the the line manager and sensory director approves that part, and upon approval it creates a test.
+So a test ID.
+Umm.
+It still has that background information, but then the additional fields are available.
+I guess I'll show the analytical one too, so there's fewer details that they capture in the background information and then they can upload.
+Certain information like the sample information.
+Raw data report other documents.
+
+SHARMA, DEEPAK   36:59
+So I can see Jen.
+I mean, a lot of the screen is is not well, I mean structured.
+I mean to fill the form one has to move from left to right and then come down and then again move left to right is it?
+
+SOONG, JENN   37:07
+Mm hmm.
+
+SHARMA, DEEPAK   37:13
+The the I mean is it the expectation?
+
+LI, ANGELA   37:18
+No, it's not Deepak.
+
+SHARMA, DEEPAK   37:19
+I mean set by you or it is the limitation.
+
+LI, ANGELA   37:23
+It's the sorry, I think before John answered already.
+Jump on that topic. You know, because there's something actually frustrating that, yeah.
+
+SHARMA, DEEPAK   37:31
+It's it's it's failing.
+It's failing the exact theory in the UX world I mean.
+
+LI, ANGELA   37:37
+Exactly.
+We actually asked for that a lot.
+This is this is not very user friendly page, you know going up and down left and right. I can tell you initial version even worse.
+I push them really, really hard, but they told me this is the best they can do.
+
+SHARMA, DEEPAK   37:54
+Oh so.
+
+LI, ANGELA   37:55
+I, to be honest, I don't think that's the case, they said.
+Because the PowerPoint has a certain template, they have a certain limitation of flexibility to adjust the format and the visuals.
+
+SHARMA, DEEPAK   38:08
+Oh, OK.
+
+SMITH, PAULA   38:09
+Yeah. Deepak, do you have a view how limited power apps is for the UX aspect?
+I mean, I don't 'cause. I don't generally use this technology, but.
+
+SHARMA, DEEPAK   38:16
+Even I don't.
+Yeah, even I don't have. But I'm just seeing the different application built on this platform and this to me is the layout is very basic. And then moving, I mean across two different sides of the screen is very not not a right, I mean user experience for the.
+
+SMITH, PAULA   38:19
+Yeah.
+A problem, yeah.
+Agree.
+
+SHARMA, DEEPAK   38:36
+End user who's gonna use this app.
+
+LI, ANGELA   38:36
+Not at all.
+I I completely agree with you.
+You haven't see the initial one.
+We already asked for the change, you know, for several time. I even gave that a standard, for example, from miss some other web page.
+I said, hey, I want something. You know, visual looks like that.
+And then they said they cannot do that. Even one thing you can see the small thing about the link.
+
+SMITH, PAULA   38:54
+Yeah.
+
+LI, ANGELA   38:56
+We have so many files uploaded to the website.
+
+SHARMA, DEEPAK   39:00
+Mm hmm.
+
+LI, ANGELA   39:01
+It's not even visible which one is uploaded which not the user have to click.
+Individual link and to see hey this is uploaded or not, I said.
+
+SHARMA, DEEPAK   39:06
+Oh.
+
+LI, ANGELA   39:10
+This is really silly.
+
+SMITH, PAULA   39:10
+Uh.
+
+LI, ANGELA   39:11
+Can you show some visible link? They said no.
+
+SMITH, PAULA   39:13
+Account and maybe account or something.
+You're right.
+So, Angela, I mean, yeah, please don't take offense as well because we know that you didn't build it yourself and we know that like probably you would.
+
+LI, ANGELA   39:16
+Yeah.
+
+SMITH, PAULA   39:24
+We should have a UX resource on these things, so it's just an observation, but appreciate that you've probably been pushing the development team to kind of make it a little bit more intuitive.
+
+LI, ANGELA   39:32
+Yeah, yeah, believe me.
+I really try hard.
+
+SMITH, PAULA   39:35
+Yeah.
+
+LI, ANGELA   39:35
+I even brought this to their top lead. I think the the whole customer I think was his name.
+Anyway, he is the whole representative of black straw team. I brought this e-mail up to his attention. I said I don't like this visual.
+
+SMITH, PAULA   39:47
+Got it.
+
+LI, ANGELA   39:51
+It's not going to work.
+So she he had actually serious conversation with our team and then basically this is a compromise.
+
+SMITH, PAULA   39:53
+OK.
+
+LI, ANGELA   40:00
+So they they said this is the best.
+They can do and uh, because they're also timelines.
+Uh, there are so many other critical features, so I have to give up something I feel OK as long as the workable.
+
+SMITH, PAULA   40:05
+Yeah.
+Fair.
+Yeah. No, that that's fair.
+
+LI, ANGELA   40:12
+But previously it's not workable.
+
+SMITH, PAULA   40:15
+Not ideal.
+Yeah, so now it's only it's workable, but not great.
+Experience right?
+That's probably why you yeah. OK.
+Well, that's, I mean, it's good that we're allowed in that perspective because that's helpful. And just a question for me because obviously you don't know the bucket like you don't see the back end, but do you know how many tables support all this data? Angela, like, is that?
+Something that you know or we probably need to dive behind the scenes.
+
+LI, ANGELA   40:39
+Oh, OK.
+
+SOONG, JENN   40:39
+MMM.
+
+LI, ANGELA   40:41
+I don't have that answer.
+
+SOONG, JENN   40:41
+I think we.
+
+SMITH, PAULA   40:43
+And it's OK, I don't.
+
+SOONG, JENN   40:44
+Have.
+
+SMITH, PAULA   40:45
+I don't want to disrupt the flow.
+
+LI, ANGELA   40:45
+Oh. Oh, sorry Paula.
+
+SOONG, JENN   40:46
+No.
+
+SMITH, PAULA   40:46
+I was just.
+It was a curious.
+
+LI, ANGELA   40:47
+I think I misunderstood you.
+You are talking about on the back end of the database. How many tables, right?
+
+SMITH, PAULA   40:51
+Yeah, correct.
+
+LI, ANGELA   40:52
+We have 19 tables actually because we that so we know.
+
+SOONG, JENN   40:56
+There's more than that.
+
+SMITH, PAULA   40:56
+Oh, OK.
+Wonderful. Oh, OK.
+
+SOONG, JENN   40:58
+There's more because for the app they created more tables.
+
+LI, ANGELA   40:58
+Yeah.
+Oh, yes, yes. Yeah, sorry. Yeah.
+For the app, there are additional table, but we build actually the bone you know with working previous data quality team we create actually data based and the relationship and then yes the structure and then with the app and then then they have to add additional tables. So Jen.
+
+SHARMA, DEEPAK   41:19
+Structure.
+Mm hmm.
+
+LI, ANGELA   41:27
+Is showing right here.
+
+SOONG, JENN   41:31
+Just need to open it.
+
+SHARMA, DEEPAK   41:34
+And and what's the I mean, what's the overall life of this application at this point in time on production?
+I mean, for how many months it's or years. It's on production, Angela.
+
+LI, ANGELA   41:43
+How many production it goes to live in in February, but we made a lot of changes, so I would say official live date is March 1st, early March. So now is let's see.
+
+SHARMA, DEEPAK   41:59
+Almost March, April, may three months.
+
+LI, ANGELA   42:01
+Yeah, it's three months, yeah.
+
+SMITH, PAULA   42:02
+Hello.
+And do you have a view of like usage at this stage yet does the is there any insights for you out-of-the-box or that were built so you can kind of see who's logging in who's using?
+OK.
+
+LI, ANGELA   42:17
+We don't have a details on that.
+However, our team are not that big, so I would say we sort of have that idea just based on the active test information, because for each, yes, each associated proposal ID test ID we have, you know the sensor leading information. We have R&D lead informations, yeah.
+
+SMITH, PAULA   42:27
+Just remembering the users. Yep, Yep.
+Got it.
+
+LI, ANGELA   42:38
+As vendor, so from that we can actually do a quick estimate.
+
+SMITH, PAULA   42:38
+Oh so.
+Yeah. So which is your which piece of data is it your proposal ID? That kind of indicates how much data overall is in the system is at the base object kind of thing.
+
+LI, ANGELA   42:53
+Sorry, what do you mean the base objective?
+
+SMITH, PAULA   42:55
+Oh, so yeah, maybe I what I mean is like, usually in a system there's one table you can look at and that kind of determines how. Well, that's a good indication of how much data's in there or how much is it being used. Yeah.
+
+LI, ANGELA   43:06
+Oh, yes, yes, yes. OK.
+I would my preference. I I would check.
+Oh, Jennifer, would you like to show the SQL database?
+Yes, for the base data.
+Pretty much we look at everything.
+So anything you'll see RMD schema until sensory schema, this is all.
+
+SMITH, PAULA   43:23
+Proposal. Yeah, yeah.
+
+LI, ANGELA   43:30
+All based data we're looking at.
+
+SMITH, PAULA   43:33
+OK. And so and you've got how many proposals 28 in there at the moment, right?
+OK.
+Got it.
+
+LI, ANGELA   43:39
+Yes, yes.
+
+SMITH, PAULA   43:40
+OK, wonderful.
+Thank you.
+Sorry to divert there.
+I just was curious as you kind of go through.
+
+LI, ANGELA   43:44
+Yes. Yeah.
+So how many?
+I'm curious how many data table we have here.
+
+SMITH, PAULA   43:51
+Oh yeah, it gives me an idea that there's quite a few there, right?
+
+SOONG, JENN   43:52
+Yeah.
+
+SMITH, PAULA   43:54
+Yeah, but.
+
+SOONG, JENN   43:55
+From RN, the R&D ones, I guess the the team developed more for the app.
+Functionality and then the sensory ones we had from before.
+
+SMITH, PAULA   44:07
+Mm.
+
+SOONG, JENN   44:10
+Just the way we capture the data, they may have added a few new ones there too, yeah.
+
+LI, ANGELA   44:15
+Yeah, yeah.
+
+SMITH, PAULA   44:16
+OK.
+So the sensory that was in the app is the R&D tables, is that right?
+
+SOONG, JENN   44:21
+Yeah, the all all these tables, yeah.
+
+LI, ANGELA   44:25
+Yeah. Jen, is it the first one?
+The R&D drop down is there more table on the top?
+
+SOONG, JENN   44:31
+No.
+
+LI, ANGELA   44:32
+Oh, OK then we have 35 table.
+
+SOONG, JENN   44:33
+It's something else. Yeah. OK.
+
+LI, ANGELA   44:35
+That's something else.
+OK.
+All right, so I just did quick count.
+So we have 35 table here and initially we develop 19 tables as you can see the schema with SNS ry that's our initial database.
+
+SMITH, PAULA   44:51
+OK.
+All right.
+And so just so I remember the R&D is that and you've got so I can see you've got sensory Rd. that's not it's the two processes.
+Is it predominantly the analytic? Yeah. OK, got it.
+
+LI, ANGELA   45:03
+Yes, it's two.
+
+SOONG, JENN   45:03
+No, it's not separated.
+No, it's not the different workflows R&D ones.
+
+SMITH, PAULA   45:09
+Are they up? Are they?
+
+SOONG, JENN   45:11
+They're just, yeah, a bit more app related like the drop down lists, notifications.
+
+SMITH, PAULA   45:14
+OK.
+OK.
+
+SOONG, JENN   45:17
+Sample information and then the sensory ones are a bit more.
+I guess more for our database, that's those are where we pull for the power BI.
+Sometimes they they hold information.
+
+SMITH, PAULA   45:31
+I see.
+
+SOONG, JENN   45:34
+Before the whole test is complete, in case someone updates the information, they don't put it straight into the database until the test is completed.
+
+SMITH, PAULA   45:47
+Oh, OK.
+And when you say the app, that's what the vendor's interacting with.
+That's when when you call it the app.
+
+SOONG, JENN   45:53
+Yeah.
+
+SMITH, PAULA   45:54
+OK, OK.
+So they're kind of like holding tables until it's complete and then sometimes it pushes to the back.
+
+LI, ANGELA   45:56
+Yeah.
+
+SMITH, PAULA   46:00
+Is that right?
+
+SOONG, JENN   46:00
+Yeah.
+
+LI, ANGELA   46:00
+Yes, yes, exactly. Yeah.
+
+SMITH, PAULA   46:01
+Yeah. OK. OK.
+
+LI, ANGELA   46:03
+And our current power BI report is mainly based on the sensory schema tables.
+Originally what we have.
+So Paula, exactly as you said, those RMD schema tables model for app and then once we get the data, you know certain workflow complete and then then we'll push the data to the sensory schema table correspondingly.
+January on Milton.
+
+SOONG, JENN   46:47
+No, I'm saying anything.
+I was just listening to you, but I guess the only fights I didn't show are the other admin functionality.
+
+LI, ANGELA   46:49
+Oh, OK, all right.
+
+SOONG, JENN   46:57
+So there's certain things like we can manage what vendors are in the app.
+We can add them here, but we also need to, like notify Kaushal to provide the license for the vendor because their external users.
+But internal stakeholders, we can just add from our.
+Active Directory.
+If we need to add internal users.
+
+SHARMA, DEEPAK   47:25
+Each each.
+
+SOONG, JENN   47:25
+Actually, we also need to.
+
+SHARMA, DEEPAK   47:27
+So each additional vendor, if you add in the system that needs an additional license.
+
+SOONG, JENN   47:32
+Yeah.
+
+LI, ANGELA   47:34
+That's true. Then, whenever we have a new user need to be adding in beside added to app we always send e-mail to.
+Cashell.
+
+SHARMA, DEEPAK   47:43
+Mm hmm.
+
+LI, ANGELA   47:44
+Team, you know, ask.
+
+SHARMA, DEEPAK   47:45
+He's part of. Yeah. Yeah. Carlos team. A platform team. Yeah.
+
+LI, ANGELA   47:46
+Yeah, yeah, exactly. Yeah.
+
+SOONG, JENN   47:50
+Actually, even internal stakeholders, we need to e-mail him as well as adding them so that he can provide access.
+
+LI, ANGELA   47:56
+Yes.
+
+SOONG, JENN   48:00
+But those don't cost anything. Yeah.
+
+SHARMA, DEEPAK   48:00
+In idle this should be part. That's not gonna cost, but the time needed to configure that user. I mean to me, a Configurator, I mean like should be available to you.
+In the admin Configurator.
+
+LI, ANGELA   48:16
+That would be great because right now I feel for Jenna. I we have too much da duties to maintain this app. That's why we thinking, you know, besides the visual, some other features for the app itself.
+
+SHARMA, DEEPAK   48:24
+Mm hmm.
+
+LI, ANGELA   48:31
+Da side, I think there should be a smarter way to make our load low be less.
+
+SHARMA, DEEPAK   48:36
+Correct. Yeah.
+
+SOONG, JENN   48:38
+Yeah. And then we can manage the drop down list.
+So this is a little bit.
+
+SHARMA, DEEPAK   48:44
+OK.
+Hmm.
+
+SOONG, JENN   48:48
+Clunky, but yeah, we can.
+We can edit them there, and then there's certain.
+Certain drop downs that depend on two things like country and region and then.
+
+SHARMA, DEEPAK   49:03
+Kind of interrelated, I mean.
+
+SOONG, JENN   49:06
+Yeah. So there's three levels of drop downs that we can see there.
+
+LI, ANGELA   49:07
+Yes. Yeah.
+That.
+
+SOONG, JENN   49:12
+That's the drop downs.
+There's a bypass feature, so this is relatively new. They added.
+But if the line manager or director is away.
+And they really need to push something through then as an admin, we can just.
+
+SHARMA, DEEPAK   49:40
+We could bypass that stage.
+
+SOONG, JENN   49:41
+Yeah, yeah.
+
+SHARMA, DEEPAK   49:43
+OK.
+
+SOONG, JENN   49:47
+Category mapping.
+So there's a certain.
+Step in the transformation engine, where for descriptive test depending on what product category it is.
+It uses different.
+A list of attributes.
+So this is just a reference of how they can determine what category to use.
+And then the rest I think I just kind of.
+Lists the the the views very poor, but it's just a way to manage the.
+
+LI, ANGELA   50:30
+Yeah.
+Yeah.
+
+SOONG, JENN   50:35
+For review the certain table.
+But through the app, instead of through SQL.
+
+LI, ANGELA   50:44
+Yeah. So.
+
+SOONG, JENN   50:46
+Yeah.
+
+LI, ANGELA   50:47
+Just on top of that additional the dip and Paula.
+So that's why a lot of menu we have here.
+Is when we add some entry making addition and then we'll click that to make change.
+However, I can't really use this as a reference because we have like to say 700 questions and 500 attributes.
+There's no way we can have a good feel with this.
+I did challenge them.
+I want the table format. I don't want this but they said that will be too much and there is that time is not achievable and it will be really slow.
+So give me all the different excuses.
+So jennai, if we want to manage this list of the information, we just go into directly to SQL database.
+So sometime I just query to excel sheet and then to have overview.
+
+SMITH, PAULA   51:39
+Wow, that's not good.
+
+SHARMA, DEEPAK   51:39
+Correct.
+
+LI, ANGELA   51:42
+Yeah, yeah. Otherwise we cannot manage. Yeah.
+
+SMITH, PAULA   51:42
+No, it's no, it's not good.
+Yeah, I understand.
+Yeah, yeah. You got a very good point, but it's bad that with the software's forcing you into SQL to kind of make an update.
+And but it's weird, right?
+
+LI, ANGELA   51:53
+Yes.
+
+SMITH, PAULA   51:54
+Because you've got tables elsewhere.
+So I'm curious why they would have pushed back on that anyway.
+
+LI, ANGELA   52:01
+Yeah, I'm also wondering. I think it's timing.
+
+SMITH, PAULA   52:02
+Maybe just timing it.
+Maybe just they ran out of time, right? Yeah, yeah, yeah.
+
+LI, ANGELA   52:06
+I think it's right now time because when we did the first user UAT and then we found I don't know how many with 300 or different requirements.
+I think they those are a lot of them actually critical.
+So they I think they are so busy with that and also we gave them one thing I have to admit we gave them very, very tight timeline. So that's why.
+We want them to make change and they.
+Decline.
+
+SMITH, PAULA   52:33
+OK.
+
+SHARMA, DEEPAK   52:35
+So this was launched and just one thing, Angela, like you said, this was launched in March this year and when when have we started on this project?
+I mean the development started.
+
+LI, ANGELA   52:51
+Extra team we uh started in.
+Uh, we, yes, I think we complete the Sol document in late September.
+
+SOONG, JENN   52:58
+Number was it October.
+
+LI, ANGELA   53:05
+Initial discussion.
+I think early October, yeah.
+
+SHARMA, DEEPAK   53:12
+OK.
+October 20.
+
+LI, ANGELA   53:15
+So overall, I remember about the 4 1/2 months.
+
+SOONG, JENN   53:18
+Yeah. October is when we were finalizing requirements, yeah.
+
+LI, ANGELA   53:20
+But.
+Right, yeah.
+But we did find there's so much gap.
+Between what we expect and also there was a, there were a lot of incidents.
+So even they claim you know it should be done deal. Actually, I think in early February, but it's not ready.
+So we push them to continue work intensively until make it, you know at least.
+I think yes variable for launch.
+
+SHARMA, DEEPAK   53:48
+Much.
+
+LI, ANGELA   53:51
+Otherwise we cannot communicate with our stakeholder, our team member, hey, ready to use.
+In the meantime, is not ready.
+So, but it's OK they they agree to do that. We saw charging us extra.
+
+SHARMA, DEEPAK   54:06
+And and and I mean the other challenges that you I mean encountered during this six months specifically in, in the expectation or towards the solution that you had?
+
+LI, ANGELA   54:07
+Yeah.
+I.
+
+SHARMA, DEEPAK   54:21
+I mean, like you said, I mean, I I remember that in our last discussion, you were saying even say they were taking an excuse of adding a filter on the report, two or three filters on the report that they said that that's not by, I mean that doesn.
+
+LI, ANGELA   54:31
+Mm H.
+Yeah.
+
+SHARMA, DEEPAK   54:36
+Come like of a time say a template in this application.
+They need to.
+They need more time for that.
+
+LI, ANGELA   54:44
+Yes, I think that's why.
+That's why they did not want to make change because they need to spend more time and and then we did have a lot of issues with the app.
+The critical one incidents sometime effects now and then, then later.
+All of a sudden we had issue and we have a recurring issue several time. So I think that's all part of the reason why we can't have a further improvement on user experience.
+But because we have to mainly focus on the basic stuff.
+But anyway.
+I think we would definitely achieve what we can.
+You know it's workable now and definitely a little bit more for Jen to work. Jen, I to work on. Oh, Jen, I don't.
+Did you show that data transformation process?
+
+SOONG, JENN   55:38
+Oh no, I did not.
+
+LI, ANGELA   55:40
+OK.
+
+SOONG, JENN   55:41
+Umm.
+I know what's the best way.
+
+SHARMA, DEEPAK   55:45
+Maybe that's a background process, which is kind of transforming the data from one state to the other for the power BI reporting.
+If is that the is, that is.
+
+SOONG, JENN   55:55
+Well, it's.
+
+LI, ANGELA   55:55
+Is it?
+No, not that's not that's that's the easy part.
+We are talking about the AI transformation engine matching the input question input attribute against the reference list.
+
+SOONG, JENN   56:03
+Actually.
+So part of it is done during the workflow so.
+
+SHARMA, DEEPAK   56:09
+OK.
+
+SOONG, JENN   56:15
+There's the raw data that the vendor submits and then we have something called the intermediate file.
+That's where the data's being transformed.
+Me and Angela have some intervention that we can do there and then the output file is when it has been transformed.
+What will be added to the database? So if I go into the intermediate file area I can check the raw data if there was any issues with the way that it was submitted I can re upload it there.
+An example of the intermediate file.
+See.
+So it will show like the data that was submitted by the vendor and then we have something called like a code legend that that kind of decodes what the questions were. Sorry.
+Then the reformatted page is part of the.
+Intermediate file so it takes all the questions oopsies sorry.
+Takes all the questions from the data that was submitted and it maps it to a question that's in the database.
+So it's trying to match what was submitted with what is in the database, but it also we also need to check the answer options because sometimes.
+There could be different age group questions that have different answers, so we need to check if that actually matches the question and so.
+The question ID from our database is shown there.
+There's certain scores based on the how good the match is.
+Based on whatever calculation that the data transformation engine does, and then if it's above, if the scores above a certain value, it will tell us. Oh well, if it's above a certain value like it's exact match, then it'll just be blank.
+But if it's quite low, it'll tell us that it's a poor match. That usually tells us it either doesn't exist in the database, so maybe we remove that question or add it as a new question.
+And then if it's in between a certain value, then it will tell us to check that question.
+But regardless, I think for now we're just checking all the the matches just to see how well it matched and then what we would have to do is enter a comment that says.
+
+SHARMA, DEEPAK   59:13
+OK.
+
+SOONG, JENN   59:19
+Like if it's fine, we leave it blank.
+If it's, if we don't want to keep it, we would type in, remove.
+If it's a mismatch, we would type mismatch and then enter the corrected question ID.
+And then if it's new, we would type new.
+And then we would add a new sheet on and give the new question details.
+So there's a bit of work that we do to verify how well it's matching the questions that we're receiving. And then once we.
+Once we upload.
+The intermediate file.
+Then there's the output file.
+Which is the.
+Reorganize to how it will go into the database.
+So it will go into the product like the consumer table like this or the respondent table like this so.
+It will have all the.
+The question IDs whether we left them in.
+Rematch them or there's a new question.
+I will assign the appropriate IDs restructure.
+The data. So the way that it's usually received, it's like.
+All the questions are along.
+The columns and then all the responses like for one user would be in a row for example. But in our database we keep them.
+In a different format. So like for one user, all their responses are stacked.
+Umm.
+For each product.
+So yeah, that's what the data transformation engine helps with.
+
+SHARMA, DEEPAK   1:01:23
+It does. OK done. Thanks.
+Thanks jenn.
+I think this this is a little complex part of the overall application.
+
+SOONG, JENN   1:01:31
+Mm hmm.
+
+LI, ANGELA   1:01:31
+Yes. Yeah.
+So Deepak, I feel this is definitely one of the higher priority if we are going to do phase two improvement.
+
+SHARMA, DEEPAK   1:01:33
+Yeah.
+
+KAUSHIK, Preeti   1:01:33
+Yes.
+
+LI, ANGELA   1:01:38
+This is too concave for.
+
+SHARMA, DEEPAK   1:01:38
+Uh huh.
+
+LI, ANGELA   1:01:42
+I can tell you it depends on the the consumer question surveys and some long survey.
+And if there are lot of question need to be removed or some new question some type take us hour to check 1 by 1 because even they have ADT right to AI to match.
+
+SHARMA, DEEPAK   1:01:56
+Correct. Yeah.
+
+LI, ANGELA   1:02:00
+But I found that matching rate is not.
+Not as good as what we want.
+I even did quick start and showing that because they according to them they said all 95% matching rate but actually that's not the case. In worst case I see only 65% even for certain question they say oh it's all good but then we check.
+Actually it's not very match.
+With that, we definitely want to improve that.
+A ****** we just found recently.
+Install document even in the development phase, they promised us the matching rate will keep improving because this is more when we add the DA comments basically tell the system this is a good match on now. So it's almost like a supervised training. I expect every time we do.
+
+SHARMA, DEEPAK   1:02:36
+Mm hmm.
+
+LI, ANGELA   1:02:50
+That the matching rate, you know the system will learn and then the improve the matching rate will improve, but then?
+From a particular study, because we completing different phases.
+Says I found the matching rate has not changed at all.
+The the matching perform exact the same from time to time, so that's why I connect with them.
+
+SHARMA, DEEPAK   1:03:08
+Mm hmm.
+
+LI, ANGELA   1:03:15
+They say, Oh no, it's not going to improve. It's just it is what it is.
+
+SHARMA, DEEPAK   1:03:19
+I mean that's that's.
+
+LI, ANGELA   1:03:19
+Basically.
+
+SHARMA, DEEPAK   1:03:21
+That's really bad.
+
+LI, ANGELA   1:03:21
+Yeah, yeah, that's all.
+
+SHARMA, DEEPAK   1:03:22
+I mean it's it's how.
+
+LI, ANGELA   1:03:25
+That's all requirement.
+Install in development phase and then they promised us to deliver but.
+Until recently, because I have particular study approved to confirm, that's not the case. Then they said, Oh yeah, we never they said it's good enough.
+So they they don't need to continue improve.
+
+SHARMA, DEEPAK   1:03:47
+Done, Angela. I mean, I think they should not be the way forward for one kind of vendor to manage its customer. If something is promised, they have to kind of put some additional effort. I would say in case something is, is being missed from their end.
+
+LI, ANGELA   1:04:01
+I agree, but a small there's one piece I want to be fair on their defense.
+
+SHARMA, DEEPAK   1:04:06
+Mm hmm.
+
+LI, ANGELA   1:04:08
+We did not mention it saw document, but we did later. We realize this is a critical requirement.
+So we did ask them to fill that requirement and they made a compromise and that they agreed to do that, which is the vendor portal.
+Or initially I I wasn't sure how challenging that will be so.
+I sort of intentionally left that part out because I'm trying to still to deliver the app informas, but then later during the development.
+At pretty early a stage, we realized this is a critical feature.
+We they have to.
+Finish that. So they did actually push back, but then.
+A few days later, they agreed. They are going to do that.
+Even we did not mention that in Sao so.
+I feel under defiance.
+You know, they did not deliver what they promised, but on the other side, we asked them to do something, Nikita.
+
+SHARMA, DEEPAK   1:05:07
+Extra OK.
+
+LI, ANGELA   1:05:07
+We didn't require, so there's also all fault as well, but but as you know, we are the the first time doing such thing and there's no way we can know everything at first, yeah.
+
+SHARMA, DEEPAK   1:05:18
+Dan. Dan, I mean, these are the practical challenges that we see as we get to the ground.
+
+LI, ANGELA   1:05:23
+Mm.
+
+SHARMA, DEEPAK   1:05:24
+OK.
+So I've taken a note of this.
+I mean this is with this I think largely it is.
+We have covered the existing set of application and we do have discussed the current challenges, which to me are the primarily this data transformation layer which is where in the matching rate performance is is not up to the mark. And then I see the UX experience across the.
+Application is very poor.
+I think it's gonna take.
+If I do.
+A time, I mean the purpose of doing a web app or application is to save time for the user, but I think it's gonna be.
+It's gonna be kind of more time consuming for one to work on this application.
+Kind of moving across here and there and the structure of the application is does also needs a lot of improvements from. I mean from my perspective on the UX side, just few things from my side on the current application and then probably you can some spend some time.
+Angela, on the new requirements, the three new buckets that you showed in in one of your slides.
+So I think I I is.
+
+LI, ANGELA   1:06:27
+OK.
+
+SHARMA, DEEPAK   1:06:28
+It is it, I think, going on the hypercare mode or it's true.
+
+LI, ANGELA   1:06:35
+Sorry hyper.
+
+SHARMA, DEEPAK   1:06:37
+I.
+Mean the support level.
+
+SOONG, JENN   1:06:38
+I think it's past hypercare.
+So we're just on basic support we have.
+Like the one power apps that support and one Python support.
+
+SHARMA, DEEPAK   1:06:50
+OK.
+
+SOONG, JENN   1:06:50
+Through.
+
+SHARMA, DEEPAK   1:06:51
+Two resources to support the current application OK.
+
+LI, ANGELA   1:06:55
+Yes, yes, both from black straw team.
+
+SHARMA, DEEPAK   1:06:59
+OK. And is is the is the I mean is the person you were referring to is that is is that person subhanil?
+
+LI, ANGELA   1:07:07
+Super Nail is the customer relation manager. The guy who work on the power app support is Azure.
+
+SHARMA, DEEPAK   1:07:10
+Mm hmm.
+
+LI, ANGELA   1:07:16
+He is power app.
+Developer from team side and Rahul is the Python engineer who help us with any data transformation related challenges.
+
+SHARMA, DEEPAK   1:07:19
+Hmm.
+Hmm.
+But as we have two, two, say, two dedicated, I mean two dedicated dedicated engineers on this application. They should work on improving the improving the challenges that we are having in this application likely much.
+
+LI, ANGELA   1:07:49
+I had a discussion with.
+
+SHARMA, DEEPAK   1:07:52
+Hmm.
+
+LI, ANGELA   1:07:52
+I think we have a little bit different understanding of the challenges.
+So.
+The two persons I mentioned, only responsible for any incidents. You know the app supposed to deliver or for example workflow. All of sudden breakdown and then user need to enter information, but then the system doesn't take it.
+They only deal with the situation like that.
+We did require them to do some small improvement. For example the format or add a certain, uh, a small feature. If doesn't take them long to figure out, but then Subneto has the discussion with me and says that, he said.
+
+SHARMA, DEEPAK   1:08:27
+Mm hmm.
+
+LI, ANGELA   1:08:34
+Angela, you cannot keep doing this.
+This is them all in the phase two, you know, add on feature is not.
+Incident resolving. So these two dedicated persons.
+Only responsible for incidents.
+
+SHARMA, DEEPAK   1:08:52
+OK.
+I'm surprised at one power Bi and one Python for the transformation layer and only responsible for incidents.
+
+LI, ANGELA   1:09:02
+Yeah. And then the power Bi power app, yeah.
+
+SHARMA, DEEPAK   1:09:02
+OK.
+Yeah, yeah, power app.
+Sorry, I'm sorry, I'm sorry.
+And I mean, I hope.
+In the last three months do have some data that these number of incidents have they have resolved.
+
+LI, ANGELA   1:09:19
+It's definitely getting better. The first month we pretty much got the incident on daily basis and also the recurring incidents, certain things we saw resolve and then pop pop up again for example data quality.
+Somehow the database doesn't take the data we entered.
+But I think now is much better.
+It's got definitely getting stabilized even.
+It's quite crunchy, but also for Gen. AI we are.
+More experience and the sort of window the system, what works, what doesn't work. So in terms of the best practice, we also getting better.
+So I will say right now is.
+It is sort of stabilized, at least for the basic function.
+What we want is OK.
+
+SOONG, JENN   1:10:08
+Yeah, we have a list that was.
+
+SHARMA, DEEPAK   1:10:08
+I mean, that's the that's the reason.
+I mean, with the time it's gonna be the the problems will be solved or I mean the the optimizations will be through and the bandwidth will be available. The more bandwidth will be available from these resources.
+So maybe we can discuss it at a later point in time.
+I mean the approach towards managing this.
+I'm sorry, Jenna, Jenna interrupted.
+You in between.
+You were saying something?
+
+SOONG, JENN   1:10:31
+Oh yeah, we do have a list of the issues.
+There were about.
+
+LI, ANGELA   1:10:40
+20.
+
+SOONG, JENN   1:10:40
+45 oh.
+
+LI, ANGELA   1:10:42
+Oh, oh, issues. Right the incidents.
+
+SOONG, JENN   1:10:43
+Sorry.
+
+LI, ANGELA   1:10:45
+Yes, we have an actual we create an Excel sheet to track that, yeah.
+
+SOONG, JENN   1:10:51
+Yeah, around 45, yeah.
+
+SHARMA, DEEPAK   1:10:51
+OK, if you can.
+
+LI, ANGELA   1:10:51
+Mm H.
+
+SHARMA, DEEPAK   1:10:52
+Probably 45 incidents, OK.
+OK. And do we have a categorization because some of them?
+Maybe during the HYPERCARE would have been resolved done, I think.
+Let me as we are closing our time, so just to support us through do we have a mechanism with which we observe kind of observe the performance of the application like these resources. With this I want to say I mean are some tools used or they monitor the.
+Performance of the application manually.
+
+LI, ANGELA   1:11:27
+I'm not.
+For what tools you are talking about?
+
+SHARMA, DEEPAK   1:11:30
+Like, I mean when I say, say, observability, it is like checking the availability of the application and performance of the application.
+
+LI, ANGELA   1:11:30
+Umm.
+
+SHARMA, DEEPAK   1:11:37
+When I see availability, it is whether the application is actually working or not.
+So there are certain tools which pulls a URL off this application.
+And checks that the application is available. If it goes down for a certain duration, it alerts the respective people.
+
+LI, ANGELA   1:11:52
+Yeah, maybe black Straw team has that, but I'm not aware so far in terms of performance, we are taking more reactive manner whenever the user experience something.
+
+SHARMA, DEEPAK   1:11:59
+OK.
+Mm hmm.
+OK then.
+
+LI, ANGELA   1:12:08
+Not along with our expectation. We do have online form for them to raise the issue and then we'll capture that if something incidents we need to communicate with team, as Jen said.
+
+SHARMA, DEEPAK   1:12:10
+Mm hmm.
+OK.
+OK.
+
+LI, ANGELA   1:12:23
+You know we have the Excel sheet and track all that incidents because we have to file those incident in the technology now.
+Yeah. So this is our system.
+
+SHARMA, DEEPAK   1:12:37
+OK, at this time, i'mits kind of a reactive approach as the users are informing us about the problems.
+
+LI, ANGELA   1:12:43
+Exactly, yes.
+
+SHARMA, DEEPAK   1:12:45
+OK. And did this application went through the performance testing?
+When I say performance testing, I mean for an example, if 20 persons are using this application, is the is the response time of the application is within the range that we need?
+Maybe within two, three seconds the response is coming.
+
+LI, ANGELA   1:13:04
+That's not I'm aware of.
+I think we didn't even go that far.
+As long as the workflow you know is working, yeah.
+
+SHARMA, DEEPAK   1:13:10
+No, they should. They should be.
+I mean, being the technical partner, they should probably suggest you all of these things.
+Then I'm quite sure.
+
+LI, ANGELA   1:13:19
+I don't have a clear information about that, no.
+
+SHARMA, DEEPAK   1:13:22
+They no worries, no worries.
+I'm quite sure they would have.
+I mean the security testing was was also not done for this application.
+
+LI, ANGELA   1:13:30
+The cure test.
+
+SHARMA, DEEPAK   1:13:31
+Security testing, I mean, yeah.
+
+LI, ANGELA   1:13:33
+Security test. Oh OK.
+
+SHARMA, DEEPAK   1:13:36
+Because this is external.
+
+LI, ANGELA   1:13:37
+OK.
+
+SHARMA, DEEPAK   1:13:38
+I mean, like you said, our vendors, it is used by external people apart from the mechan users. Then to me security testing there are tools available with which we can test various security parameters of this application like for an example if I want I can put a B.
+
+LI, ANGELA   1:13:45
+OK.
+OK.
+
+SHARMA, DEEPAK   1:13:56
+On this application and I can kind of kind of.
+I choked choke the application usage.
+
+LI, ANGELA   1:14:04
+OK.
+I.
+I don't know how that information. I think this is the mall for the developer to figure out.
+Maybe band has some information, but I doubt he has.
+This is the more definitely, I think Blue Team should.
+Take care.
+
+SHARMA, DEEPAK   1:14:21
+Maybe let's.
+I mean check on this part.
+On others part, I'm not gonna say are important, but this to me is of utmost importance as we have external I mean person interfacing with this application.
+So maybe you can write a e-mail or engage me with the person who's responsible.
+Then I can take it up with him.
+Then one thing I wanna know is.
+
+LI, ANGELA   1:14:42
+Sorry, Deepak.
+What e-mail do you want?
+
+SHARMA, DEEPAK   1:14:46
+I mean the maybe DD people like these two people from.
+Black Straw, who are working on this application. You can ask them whether a security testing of this application is done or not and just CC me in that e-mail and then I'll take it forward with them.
+
+LI, ANGELA   1:15:05
+OK.
+OK.
+
+SHARMA, DEEPAK   1:15:07
+Done and.
+What is the total number of users of this application?
+Across all rules.
+
+LI, ANGELA   1:15:17
+I think right now maybe.
+We expect within a year, 5200.
+Depends on the how many project we have. Each project. There will be a dedicated team member and also associate R&D and some vendor.
+So it's, you know, it's a fluctuate.
+It's not fixed number.
+So initial estimate is a 50 to 100.
+
+SHARMA, DEEPAK   1:15:38
+At this at this moment.
+5200, OK. And we expect this to go at a rate of maybe.
+
+LI, ANGELA   1:15:50
+A girl.
+
+SHARMA, DEEPAK   1:15:52
+10 percent, 20% maybe quarterly biannually.
+
+LI, ANGELA   1:15:59
+I mean 1500.
+Oh yeah, I think across the whole year.
+
+SHARMA, DEEPAK   1:16:02
+OK.
+Done. Is it and and and she has this is this is this application used by a specific I mean in a specific country or it is a global application I mean.
+
+LI, ANGELA   1:16:15
+Global global. Yeah, we have a user in Europe in, in Apexa in North America.
+
+SHARMA, DEEPAK   1:16:22
+Mm hmm.
+
+LI, ANGELA   1:16:24
+Macan. Yeah, definitely global.
+
+SHARMA, DEEPAK   1:16:28
+And these 5200 users that you were saying, I mean for the which are there in the current platform?
+Rri mean, across the global users, I mean.
+
+LI, ANGELA   1:16:41
+Yes, yes.
+
+SHARMA, DEEPAK   1:16:42
+So this is AI mean our distributed globally. OK done.
+
+LI, ANGELA   1:16:45
+Yes.
+
+SHARMA, DEEPAK   1:16:46
+Thanks. I think I'm good for the details that I needed on the current application.
+Any point Preeti or Siddharth you have say towards the current set of application?
+
+SINGH, SIDDHARTH   1:17:00
+No, Deepak, there is.
+There was one particular point that I have, but can I ask it right now or should we discuss first?
+
+SHARMA, DEEPAK   1:17:04
+Mm hmm.
+OK, we can discuss 1st and then probably I'll drop an e-mail to Angela and Chen.
+Anything from your side, Preeti?
+
+SINGH, SIDDHARTH   1:17:13
+Yep, sure.
+
+KAUSHIK, Preeti   1:17:16
+But I think I understood the overall thing and the pain points.
+We can discuss internally and then ask anything.
+
+SHARMA, DEEPAK   1:17:23
+John.
+Thanks, Angela and Jenn.
+I think we are through with this the current set of application features and challenges.
+I just need your help to help me understand more about the new features that are in road map so that that helps us kind of size the team that you want for this application.
+
+LI, ANGELA   1:17:40
+OK.
+OK. So Deepak, did you see that?
+A feature to feature list I share with you.
+
+SHARMA, DEEPAK   1:17:54
+I'm sorry, Angela. I missed on that.
+
+LI, ANGELA   1:17:58
+Oh, did you see this?
+I shared the loop workspace with you, so all the key document filings are right here and so the phase two feature list list is all wish list for the new features so far.
+
+SHARMA, DEEPAK   1:18:14
+OK, these one and how many features are there in this?
+Just just if you can Scroll down.
+
+LI, ANGELA   1:18:20
+Yeah, we put 21, but after what I heard from you, I think actually we can make something that will be even bigger.
+
+SHARMA, DEEPAK   1:18:21
+****.
+
+LI, ANGELA   1:18:28
+So I think for example on some format.
+Like a filter capability. The format I put a medium, but that's part of user experience based on your side, I think overall that the user experience.
+It is I. I think it's quite poor, but it's just manageable for now, yeah.
+
+SHARMA, DEEPAK   1:18:49
+OK.
+OK. Then I think then what we will do is we'll go through this and in case I have certain queries, then I'm gonna put that over the e-mail to you.
+
+LI, ANGELA   1:18:50
+Yeah.
+OK.
+
+SHARMA, DEEPAK   1:19:00
+OK.
+
+LI, ANGELA   1:19:01
+I don't know.
+Do you need us to go over the list so you understand what we say here?
+
+SHARMA, DEEPAK   1:19:08
+That will be great.
+I would say I mean, Angela, if you can do it.
+
+LI, ANGELA   1:19:10
+OK, OK.
+
+SHARMA, DEEPAK   1:19:10
+I mean, we still have 30 minutes over the call if we can discuss it, yeah.
+
+LI, ANGELA   1:19:12
+Yep.
+Yeah, we can do that quickly.
+
+SHARMA, DEEPAK   1:19:16
+Yeah.
+
+LI, ANGELA   1:19:17
+So let's start with the first one. The high priority add pre approval before RFP.
+So the workflow.
+We require.
+Sensory lead to send request or proposal form to vendor and the vendor complete the form and send back to sensory lead and then sensory lead completes some other information and send to sensory manager and director to approve.
+But then when we went after the system launch, we realized.
+If the sensory manager or or director.
+Ask accessory lead to make change on the field from the RFP form.
+For example, right here.
+Let's say the background request objective.
+We cannot make a change. The reason for that, because this is RP.
+Sent to the vendor.
+Vendor had to acknowledge that and then send back the proposal based on this background information.
+So if sensory manager or director as the lead to change that information, then information with the vendor also need to be changed.
+Maybe vendor need to update their proposal based on the new information so you know that's a whole workflow. We did not discuss and cover in the investment phase.
+
+SHARMA, DEEPAK   1:20:47
+Mm hmm.
+OK.
+
+LI, ANGELA   1:20:55
+So with that and we realized for each proposal pretty much either manager or director require all sensory lead to make change for some objective or product detail background, whatever.
+Here they don't like it.
+They want to make change at a friend, so then we have to add a menu step. So our director asks all the sensory lead before even using a whole app system.
+Create a one pager on PowerPoint.
+Get approval through e-mail first.
+
+SHARMA, DEEPAK   1:21:29
+Mm hmm.
+
+LI, ANGELA   1:21:29
+And and then they can enter so that way the all that information RFP won't be changed later.
+So I feel this is a really cumbersome, but I don't blame black straw team because this is something we did not realize at first so.
+
+SHARMA, DEEPAK   1:21:46
+Mm hmm.
+
+LI, ANGELA   1:21:48
+We said we think far too.
+Send RP to vendor yet potential vendors.
+Add a pre approval step for manager and director to get alignment on the information he or she is going to send.
+In FRP, yeah.
+
+SHARMA, DEEPAK   1:22:07
+OK.
+OK.
+So which is what I'm able to understand if the RFP is submitted with certain information and after submission some changes are needed so.
+So the manager or the director should have that option to do the edits.
+
+LI, ANGELA   1:22:23
+Yes.
+
+SHARMA, DEEPAK   1:22:24
+Considering some condition and that should reflect at the vendor side and the vendor should be informed that these are the changes done in this so that they can check and then come back. I mean kind of update the application.
+OK. Yeah.
+
+LI, ANGELA   1:22:37
+Yes, yes, exactly.
+
+SHARMA, DEEPAK   1:22:40
+Yeah.
+
+LI, ANGELA   1:22:40
+The second part.
+Da should have a capability editing the data after test is complete. So once the test.
+Come here in the complete test summary.
+Basically, we can't make an even we make change here.
+That change won't be reflected in the sensory schema data.
+Tables which we use to generate power BI report.
+Umm, so this is a ****** to me and I told them I want to make a change but they said they will change.
+The whole workflow is not that simple.
+Make the system not very stable, so I have to live with that.
+The reason I want that addition capability.
+You see, there's a lot of information, especially for sample information form sometime.
+I didn't notice.
+A user do not feel the information as per requirement but we didn't find until the test is complete.
+So we want to have intervention, you know, make change to make sure the final data or data base always accurate. But now once test is complete, I cannot make change for example any information I change on sample information.
+
+SHARMA, DEEPAK   1:23:47
+Mm hmm.
+
+LI, ANGELA   1:24:04
+Form after test is complete.
+We now be able to reflect it in our database if we want to make change, we have to ask the database admin to make change.
+
+SHARMA, DEEPAK   1:24:18
+And see if I think. I'm not sure. Say the the volume of work with respect to how I mean the power apps platform, but that should be possible.
+But if some data changes is happening.
+Do you want that to be approved by someone or it is anyone? Probably the aligned person can only change it and that gets updated in the application.
+
+LI, ANGELA   1:24:42
+I don't think it's necessary.
+It's sometimes what we notice, I think is more like obvious information. For example, certain product category they chose definitely wrong category. We noticed for example on the raw data there was a mistake.
+
+SHARMA, DEEPAK   1:24:58
+Mm hmm.
+
+LI, ANGELA   1:24:59
+So normally if DA, you know, Jenna, I noticed that.
+I hope we can change directly.
+We don't need a additional approval workflow.
+
+SHARMA, DEEPAK   1:25:07
+Hmm hmm.
+
+LI, ANGELA   1:25:08
+Yeah. We just want to add it especially safe data and the raw data.
+We didn't notice sometimes, Wrongdata said.
+
+SHARMA, DEEPAK   1:25:15
+Mm hmm.
+
+LI, ANGELA   1:25:17
+Until go to the database and a couple months later. And when we do some data analytics, we notice.
+Oh yeah, there's a issue right? So.
+With particular tests.
+So if Jen and I have capability just going to add and then make a change on the raw data, that would be super.
+
+SHARMA, DEEPAK   1:25:31
+Oh, OK. So as as OK as there is a super admin to this application, so you should be able to kind of do the changes in the in.
+I mean in the data.
+
+LI, ANGELA   1:25:40
+Yes, even after test is complete.
+
+SHARMA, DEEPAK   1:25:41
+OK.
+OK.
+
+LI, ANGELA   1:25:45
+Yeah, right now we don't.
+We do not have that capability.
+
+SHARMA, DEEPAK   1:25:48
+Mm hmm.
+
+LI, ANGELA   1:25:50
+I think this is pretty clear.
+Improve AM model.
+I really don't like what we have now.
+
+SHARMA, DEEPAK   1:25:54
+Yeah, yeah.
+
+LI, ANGELA   1:25:55
+It's very clunky. I I would say it's more than just am model.
+That's the key piece.
+Key challenge just overall you you see Jan Show you that experience.
+I don't know what's the best way to make that simpler, because I feel in terms of leadership, we had to come up a solution and then they just do it. But I feel our current solution is not ideal.
+
+SHARMA, DEEPAK   1:26:21
+Mm hmm.
+
+LI, ANGELA   1:26:21
+So just want to improve that overall DT experience exactly.
+
+SHARMA, DEEPAK   1:26:24
+User experience OK, yeah.
+
+LI, ANGELA   1:26:29
+Oh yeah, I actually capture here, you know?
+
+SHARMA, DEEPAK   1:26:29
+Watching.
+
+LI, ANGELA   1:26:33
+And make a separate pond and the fifth one accommodation of non product testing.
+Oh, OK.
+This is also very important.
+We want to expand application of this app.
+So that the test project can be capturing the app without failing sample information form in order to accommodate non product testing project. So right now.
+We can only capture.
+I.
+I did ask all I think Azure for Black straw team.
+What if I do not have sample information form?
+Here is this empty because this project is completely research proposed.
+You know, maybe inside summary, but we work with external party to work on that research project.
+We want to capture that information in that, but but they told me if this is empty then.
+You cannot.
+Basically, we cannot skip that and then workflow will break, so we cannot capture such tasks.
+
+SHARMA, DEEPAK   1:27:44
+OK.
+
+LI, ANGELA   1:27:45
+Yeah, another high other sensory analytical activity tests.
+OK.
+
+SHARMA, DEEPAK   1:28:00
+OK.
+
+LI, ANGELA   1:28:02
+So we want multiple people can work on active tasks. So right now we were told once you assign somebody, I think we can reassign, we can make a change, but only one person can, for example, the sensory work on the active summary only the sense that particular Sens.
+
+SHARMA, DEEPAK   1:28:05
+Mm hmm.
+
+LI, ANGELA   1:28:21
+Lead can work on that information.
+
+SHARMA, DEEPAK   1:28:24
+Mm hmm.
+
+LI, ANGELA   1:28:25
+The other person cannot work on unless.
+Sensory manager. Reassign this person to another person.
+So basically only allow one person to work on the app, yeah?
+
+SHARMA, DEEPAK   1:28:33
+OK, OK.
+So kind of multiple multiple people should be allowed to work on a SIM. I mean SIM 1 sample type.
+
+LI, ANGELA   1:28:43
+Yes, yes, because this in real life sometimes it's more than one sensory person work on the test summary. Sorry, work on the test.
+So we we should have some flexibility allow more than one person to provide information.
+
+SHARMA, DEEPAK   1:29:00
+OK, got your point. Yeah.
+
+LI, ANGELA   1:29:01
+Yeah, yeah.
+Save entry.
+That's sample information from entry.
+Yes, this is another ****** and quite clunky. For sample information form.
+We can't.
+We cannot do bulk copy and paste.
+So initial sample information.
+Form most of the time, for example R&D have that information they save in the Excel.
+Well, so if they can just copy paste easily, that will be OK. That would be great.
+Right now they can only copy one file after another one by one.
+
+SHARMA, DEEPAK   1:29:42
+OK.
+
+LI, ANGELA   1:29:44
+Yeah.
+
+SHARMA, DEEPAK   1:29:45
+OK, which is bulk data update for that transaction.
+
+LI, ANGELA   1:29:50
+Yeah.
+Better visibility.
+
+SHARMA, DEEPAK   1:29:54
+Better visibility of, yeah, yeah.
+
+LI, ANGELA   1:29:55
+Yeah, I already mentioned that.
+Yeah, I said low.
+But you know again this is user experience.
+
+SHARMA, DEEPAK   1:30:02
+You're gonna get noise.
+Angela has this.
+Has this application is used by more and more people?
+They're gonna.
+
+LI, ANGELA   1:30:09
+Mm hmm.
+
+SHARMA, DEEPAK   1:30:09
+Kind of come back to you and say that.
+You're moving me here and there to get different files. So we got to add this to me is important UX across. I mean all the points to me is is is an incremental thing that we should always do.
+
+LI, ANGELA   1:30:26
+Always. So do you think this should be high?
+
+SHARMA, DEEPAK   1:30:33
+See, it's gonna increase.
+At least let's have medium.
+
+LI, ANGELA   1:30:38
+Yeah. OK.
+
+SHARMA, DEEPAK   1:30:39
+Connection with the mccand data.
+Verdict in IMS. OK.
+
+LI, ANGELA   1:30:45
+Yeah.
+
+SHARMA, DEEPAK   1:30:46
+So you're saying, Amin kind of connecting this application to the vendor master, which is there with maybe an SAP?
+CP, is this the intent?
+
+LI, ANGELA   1:30:57
+I I think Janu added this right.
+
+SOONG, JENN   1:31:03
+Sorry.
+
+SHARMA, DEEPAK   1:31:05
+Point #9.
+
+SOONG, JENN   1:31:07
+Connection. Oh, I see.
+Yeah, I think so.
+But that's maybe not.
+Phase two, maybe that's even further in the future.
+
+LI, ANGELA   1:31:21
+Yeah, I I feel so, yeah.
+Maybe even maybe in the first three.
+
+SHARMA, DEEPAK   1:31:29
+But I mean, by definition is the is the is the requirement as to integrate the vendor master which is there in maybe SAP but this application.
+
+LI, ANGELA   1:31:42
+If we can connect with SAP, yeah, that would be great.
+For example, that PO information we have Coupa SAP.
+So if it's link rather than manually put that information that would be great.
+But again, I don't think this is the.
+
+SHARMA, DEEPAK   1:31:57
+Immediate need.
+Maybe. Yeah. It's it's once we are through with all we can kind of take this up. OK, good with you to have.
+
+LI, ANGELA   1:31:58
+Best no.
+Yeah, yeah, yeah. I I think we are OK. Even in the in phase three because I know mechan also going through major, you know, the digital trans. Yeah, migration.
+
+SHARMA, DEEPAK   1:32:09
+SAP transformation.
+Yeah, yeah.
+
+LI, ANGELA   1:32:11
+Yes.
+
+SHARMA, DEEPAK   1:32:14
+OK, improved search and filter capability for completed test got this point.
+
+LI, ANGELA   1:32:16
+Yeah. You know, I think let's go medium because I feel.
+
+SHARMA, DEEPAK   1:32:21
+Yeah.
+Ability to download one pager, create a field based on information entered.
+
+LI, ANGELA   1:32:29
+Yes, OK. This is including the all the amendment phase requirement.
+But they told me they cannot do that so.
+What we are talking about for example.
+There are certain field information require objective and background.
+Action to be taken action standard all director require all sensory team when generating that can report.
+In the standardized format.
+And so we have certain template. So we want to have on that template automatically extract information from the.
+A and the fill into that PowerPoint.
+
+SHARMA, DEEPAK   1:33:13
+OK, fill into the.
+
+LI, ANGELA   1:33:14
+We can provide, yeah, we can provide that requirement.
+I did give them actually the detail or to will need to be done, but they said no that cross a different software environment and then they cannot achieve in in this in the in this project.
+
+SHARMA, DEEPAK   1:33:36
+In the.
+In the probably in the timelines that were kind of agreed for this project, yeah.
+
+LI, ANGELA   1:33:39
+I think I. Yeah, yeah, yeah, yeah.
+OK.
+Yes, this is for my improvement to minimize scrolling. I think we I mentioned just the overall UC user experience. I think visually when I see this, I agree with you, it's too basic.
+
+SHARMA, DEEPAK   1:33:50
+Mm hmm.
+
+LI, ANGELA   1:33:56
+I have seen much better. Yeah, user friendly interface.
+
+SHARMA, DEEPAK   1:33:56
+Yeah.
+Yeah.
+
+LI, ANGELA   1:34:02
+Yes, OK.
+
+SHARMA, DEEPAK   1:34:04
+Yeah.
+
+LI, ANGELA   1:34:04
+Sample information from export. I think this is a quite a silly one.
+Our R&D team member, Sensory team member, require.
+To.
+Download this phone into Excel.
+Oh, at least some bulk data.
+Easily, but right now we do not have that function.
+
+SHARMA, DEEPAK   1:34:32
+OK.
+
+LI, ANGELA   1:34:33
+Yeah, this is a big table. They want to download.
+
+SHARMA, DEEPAK   1:34:34
+This information form.
+
+LI, ANGELA   1:34:38
+I think even PDF that's OK we can create two, you know to generate.
+Connect with Excel, but they told me they cannot export this table.
+
+SHARMA, DEEPAK   1:34:50
+Mm hmm.
+
+LI, ANGELA   1:34:50
+I I think that's really ridiculous, but they they just told me they cannot.
+
+SHARMA, DEEPAK   1:34:55
+Yeah.
+
+LI, ANGELA   1:34:57
+OK.
+Report creation.
+Oh yeah, I already covered this make.
+Did I repeat?
+
+SHARMA, DEEPAK   1:35:04
+Yeah, you.
+Yes, I think maybe this one pager you were saying the details.
+
+LI, ANGELA   1:35:13
+OK. Yeah.
+
+SHARMA, DEEPAK   1:35:13
+I mean, is the one.
+
+LI, ANGELA   1:35:16
+That's. Yeah, I think I already covered that creation.
+Yeah, create a Mac and report template based on the enter field PPT, yeah.
+Do I maybe?
+Oh, ability to download one pager, OK.
+So sorry, this is a different one. The one pager is.
+Is this part so the one pager requires certain field?
+Pretty much the the information on RFP vendor and also here further information one pager detail.
+So basically just to download that one pager into a PowerPoint.
+
+SHARMA, DEEPAK   1:35:55
+PDF side into a PowerPoint OK.
+
+LI, ANGELA   1:35:58
+A PowerPoint will be great because that's normally the format they share with the marketing team and other stakeholder. Because this is not very user friendly.
+So they want to have a more summary, consolidate 1 pager information.
+
+SHARMA, DEEPAK   1:36:12
+OK, understood. Understood. I mean, some of the important fields on the page as A1 pager for a PowerPoint slide.
+
+LI, ANGELA   1:36:13
+Slide to to share.
+Yes, yes, because it's not just for our team, for commercial, for marketing team.
+
+SHARMA, DEEPAK   1:36:26
+Mm hmm.
+OK.
+
+LI, ANGELA   1:36:29
+OK, test conclusion after.
+Oh, this is another one we just found towards the almost completion of the project. So for Karen.
+Test.
+OK.
+So when the sensory lead click this, let's say this one, I can click this one.
+Yes, Sir.
+OK, there should be message populate and ask a reminder sensory lead. Hey, have you connected with the DA and confirmed the data transformation is complete?
+So there's a thing waiting.
+Now consider we have to make sure Jen I complete the data transformation.
+You know, check the attribute.
+Our question match results and upload the final intermediate file and also see if final data look OK.
+Or not. If we don't do that, and then then sensory lead somehow just conclude the test.
+As you know, we cannot change the raw data for complete test and that will be a big issue for us.
+
+SHARMA, DEEPAK   1:37:44
+Mm hmm.
+
+LI, ANGELA   1:37:50
+So we so far we asked them to just have a populate a message as a reminder.
+But if sensory lead made a mistake and they ignore that message, still conclude the test and the Jenna I did not get a chance to finish this data transformation work, then you know.
+Then basically we do not have final data.
+
+SHARMA, DEEPAK   1:38:13
+Mm hmm.
+
+LI, ANGELA   1:38:14
+Yeah. So we want to have some workflow if that part work is not done, just do not conclude the test.
+
+SHARMA, DEEPAK   1:38:18
+Mm hmm.
+OK, OK.
+
+LI, ANGELA   1:38:31
+OK, data quality.
+John, I think you will have this right.
+Standardize the data.
+That is entering the app before we save to SQL.
+
+SOONG, JENN   1:38:42
+Yeah, I think just some more checks because sometimes things like blanks or Na, they still count it as different.
+
+SHARMA, DEEPAK   1:38:42
+Clear.
+
+SOONG, JENN   1:38:51
+So we really have to be careful when we enter the data, but if the system can check in.
+
+SHARMA, DEEPAK   1:39:00
+Mm hmm.
+
+SOONG, JENN   1:39:00
+Help with that? That would be easier for users.
+
+LI, ANGELA   1:39:07
+Yeah, sometime we actually create duplicate entry. Because of that, you know you know existing database.
+We definitely need to do some the data cleaning work. We noticed some some data entry actually is the same, but just because those wording thing and then we consider as a duplicate entry, yeah.
+
+SHARMA, DEEPAK   1:39:27
+Yeah, yeah.
+
+LI, ANGELA   1:39:31
+Ad sensory lead capability to.
+Maybe give a little bit more context on this requirement.
+
+SOONG, JENN   1:39:40
+Oh yeah.
+Well, right now the line manager role, they can create RFP. So for the vendors to submit proposals to. But I think that their current capability stops at the one pager step. So they need to assign it to a sensory lead to continue. If they started an RFP but.
+Some line managers in our team, they actually do.
+Oversee testing.
+And.
+So I think they need the capability to complete the test workflow, not just have the limited.
+Scope of the.
+RFP portion.
+
+LI, ANGELA   1:40:28
+Oh, OK, yeah.
+So.
+Deepak, are you clear about this? OK, OK, good.
+
+SHARMA, DEEPAK   1:40:32
+Yeah. Yeah. Got yeah, yeah. Yes.
+
+LI, ANGELA   1:40:38
+Oh, I add this.
+Just another management drop down list for us. So for hold protocol table.
+Because this will help us to streamline some whole protocol term because especially in this table. That's why I'm talking about insisting databases are a lot of duplicate entries and we feel also if as a admin we have a role to manage that would be great.
+
+SHARMA, DEEPAK   1:41:09
+OK.
+
+LI, ANGELA   1:41:09
+Automatic. Yeah. Automatic population of study name based on. Yes, this.
+I cannot blame black straw team, but also we are close to project completion.
+We noticed it is something we need to figure out at the 1st.
+So right here.
+Oh, I do not have that view.
+By the way, so I I cannot show you that view because we are done admin.
+This is a complete test.
+Sorry, this active test summary, but when sensory lead in their view working on active sensory.
+
+SHARMA, DEEPAK   1:41:42
+Mm hmm.
+
+LI, ANGELA   1:41:48
+Sensory test. And then when they enter one pager details for example.
+Click M as project number they put here. They have actually a file link right here and they can click the file link and to check.
+If this.
+Project number is one of the 16 project number capture in all database.
+Basically they check.
+So.
+When they see that filing, they will check here.
+So I gave them instruction.
+So if they notice, Oh yeah, this is a new project number, then they will enter here, provide the name.
+And then I think study it are those things will populate automatically and I create a workflow.
+
+SHARMA, DEEPAK   1:42:46
+MMM hmm.
+
+LI, ANGELA   1:42:47
+This will be for example if I put.
+In the dash.
+Once this is no right and then.
+Data admin Jenna I will get notifications through e-mail.
+Hey, there's a new study.
+Enter. So we have to go to here.
+Study master and add this new study.
+
+SHARMA, DEEPAK   1:43:13
+Oh, OK.
+
+LI, ANGELA   1:43:14
+This is really clunky, so we want this more automatic in the system. So basically.
+There's a relationship.
+There's a table between the.
+As you can see right? So.
+Before yes.
+So normally each each study name corresponding to a project number, but in some time certain project number maybe corresponding to different study name.
+But anyway, we want to use a little bit more straightforward way to to manage.
+So for example, once the user enter existing project number then on the starting name field we will populate automatically for the sensor data to choose.
+Something like that.
+
+SHARMA, DEEPAK   1:44:04
+And who all have access to this Excel file?
+
+LI, ANGELA   1:44:08
+Who have?
+
+SHARMA, DEEPAK   1:44:08
+Anyone can enter.
+
+LI, ANGELA   1:44:09
+Yes, all the sensory lead.
+
+SHARMA, DEEPAK   1:44:12
+OK, OK.
+
+LI, ANGELA   1:44:14
+Yeah. And of course, Jen, I. Yeah. This is the really cumbersome because this is just extra work we have to take care we didn't realize before.
+
+SHARMA, DEEPAK   1:44:23
+So as a solution.
+As a solution, maybe say it'll be tough, kind of.
+Maybe a feature in the application itself wherein one can raise a request and that comes to you and you kind of do a just approval button click approval button and that creates the data in the study master.
+
+LI, ANGELA   1:44:41
+Yeah, we can do that as well.
+So basically, bring the study name right here Ms. Project number and then once they enter St. you know existing project number, the starting name will be showing corresponding.
+
+SHARMA, DEEPAK   1:44:43
+Yeah.
+
+LI, ANGELA   1:44:56
+Data entry for them to choose because.
+Because sometimes one project number can be corresponding to different study names.
+But if there's nothing, this is new, then as you said that maybe we can either approval process or something.
+Then we can add that.
+
+SHARMA, DEEPAK   1:45:13
+Yeah, I mean like, like a e-mail. It comes to your outlook box and then there there will be a button in the e-mail itself and you just click it there and D data is created.
+
+LI, ANGELA   1:45:14
+New.
+Yes, yes, yeah.
+
+SHARMA, DEEPAK   1:45:27
+Yeah.
+OK.
+
+LI, ANGELA   1:45:30
+OK.
+
+SHARMA, DEEPAK   1:45:30
+I mean understood this, yeah.
+
+LI, ANGELA   1:45:32
+OK.
+I think we're almost.
+Close.
+
+SHARMA, DEEPAK   1:45:38
+The last I think is pending.
+
+LI, ANGELA   1:45:40
+Dropdown category differentiation.
+
+SOONG, JENN   1:45:50
+I think I added that.
+
+LI, ANGELA   1:45:52
+OK.
+
+SOONG, JENN   1:45:54
+In the sample information form.
+In certain fields it shows all of the holding and transportation types, but actually they should be.
+Separated into their specific type.
+So I don't know if you have the app still open.
+And can go to.
+
+LI, ANGELA   1:46:25
+A sample inform.
+
+SOONG, JENN   1:46:25
+A sample information, yeah.
+So if you go to the holding protocol part.
+Actually this one doesn't have any data, maybe a different one.
+
+LI, ANGELA   1:46:42
+Oh yeah, maybe choose a better one, right?
+Yeah, the one I can choose a complete test so.
+Right. I think Jan you are talking about this.
+
+SOONG, JENN   1:47:05
+Yeah. So if you go to the type part.
+Yeah. So when you look at like a primary package type, for example.
+In the drop down list.
+It will even show the delivery bag, plastic bag paper bag which are secondary or delivery vessel types.
+So it's not really.
+Showing.
+
+LI, ANGELA   1:47:35
+Oh.
+
+SOONG, JENN   1:47:36
+Only the options that should apply to that category.
+
+LI, ANGELA   1:47:40
+Mm H.
+Yeah. So.
+
+SHARMA, DEEPAK   1:47:45
+Which is what?
+
+SOONG, JENN   1:47:45
+So there's some room for error here. If the user selects something wrong.
+
+SHARMA, DEEPAK   1:47:48
+Yeah, yeah.
+
+LI, ANGELA   1:47:50
+Yeah. So I think we are talking about maybe.
+
+SHARMA, DEEPAK   1:47:50
+Tracked.
+
+LI, ANGELA   1:47:56
+Right, so here this is what we are talking about.
+So, Deepak.
+So when we show the package tab, you know if in the primary package type we only want to show primary.
+We do not want to show everything else, but currently in the drop down we show everything.
+
+SHARMA, DEEPAK   1:48:19
+OK, there should be a minor change I think.
+Just a kind of condition in the SQL script that one has written.
+
+LI, ANGELA   1:48:26
+Yes, yes, exactly. Yeah.
+
+SHARMA, DEEPAK   1:48:28
+Yeah.
+John, I think er or anything more jennav and Angela Faraz.
+
+LI, ANGELA   1:48:36
+And I think 01 thing, this is just working table.
+I'm pretty sure you know Jenn.
+I realize something will continue. Add on features in this list. I do have a question for you.
+As I mentioned, we're close to the end of fiscal. We have to figure out the the budget soon. So even a ballpark number will be helpful.
+
+SHARMA, DEEPAK   1:49:05
+Mm hmm.
+
+LI, ANGELA   1:49:06
+I know you know you would need some time to digest information.
+And to figure out, you know, the maybe a rough estimate, but I do need that information as soon as you can. If, let's say next week.
+Is that even possible?
+Give me a ballpark range if we want to do phase two.
+
+SHARMA, DEEPAK   1:49:27
+Yes, Angela, it is in my priority list.
+I mean does.
+I mean, I kept a very long call today and thanks to you and Chen for this.
+I'm I'm we're gonna work on this and definitely say shortly by next week I'm gonna come back to you with the approximate time that we should. We'd be needing for this project.
+
+LI, ANGELA   1:49:45
+OK, perfect.
+What else?
+And and also I want to hear from your side, since you already reviewed this.
+
+SHARMA, DEEPAK   1:49:56
+Mm hmm.
+
+LI, ANGELA   1:49:59
+Do you feel that phase two requirement will be asked for?
+Is it a lot?
+Is this something you think OK.
+We'll take another half year to complete or based on experience, maybe another two or three months.
+This should be enough.
+
+SHARMA, DEEPAK   1:50:15
+I think fast tracking should be possible considering the application is is built. Many of the features I mean like the UX features 3-4, UX features that we discussed in your list, they they can be worked upon in parallel. But to me the.
+The the risk which I'm seeing is that you already have a flag from black straw that this is the best user experience that they can deliver.
+So I am.
+I'm quite sure that we should be able to kind of have the closure within the three to six months of all the points that you have.
+
+LI, ANGELA   1:50:49
+OK. So you mean additional six months?
+
+SHARMA, DEEPAK   1:50:53
+Mm.
+I mean, say it.
+Say two things for me.
+One is that what is the time needed and then what is the schedule needed so when we can add more resources and kind of shrink the overall effort and complete the work within three months. But just from a kind of a rough estimate that's there in my head.
+
+LI, ANGELA   1:51:00
+Yes.
+OK.
+
+SHARMA, DEEPAK   1:51:13
+With the points that I have discussed, if we had more people to work in in parallel on the points, we should be able to kind of start delivering from the 2nd.
+110 by by 6 Month I think this should be true.
+
+LI, ANGELA   1:51:26
+By 6 months, the price.
+
+SHARMA, DEEPAK   1:51:28
+No.
+
+LI, ANGELA   1:51:30
+OK.
+All right. Yep.
+
+SHARMA, DEEPAK   1:51:32
+John.
+
+LI, ANGELA   1:51:32
+So that would be great.
+So, Deepak, if you next week you can give us that information that would be great, yeah.
+
+SHARMA, DEEPAK   1:51:37
+Done. Done. Done.
+Yeah, I'm gonna come back, come back to you, Angela. On this.
+
+LI, ANGELA   1:51:38
+OK.
+Thank you.
+OK.
+
+SHARMA, DEEPAK   1:51:42
+Just one thing do do please.
+
+LI, ANGELA   1:51:42
+Sorry I have to.
+I have to leave.
+
+SHARMA, DEEPAK   1:51:44
+Yeah, do.
+
+LI, ANGELA   1:51:44
+There's a emergency call I have to pick up.
+Sorry about that.
+
+SHARMA, DEEPAK   1:51:47
+Oh, please, please, please, please, please, please, Angela.
+
+LI, ANGELA   1:51:48
+Yeah. Yeah. Thank you.
+
+SHARMA, DEEPAK   1:51:49
+Yeah, Jen, just a reminder to you if you can probably send a e-mail about the security testing or maybe you can let Angela know about that.
+That will be helpful. OK.
+
+SOONG, JENN   1:52:00
+OK.
+Yep, sure.
+Thank you all for your time.
+
+SHARMA, DEEPAK   1:52:05
+Thanks. Thanks everyone. Bye bye.
+
+SOONG, JENN   1:52:07
+Right.
+
+SHARMA, DEEPAK stopped transcription
