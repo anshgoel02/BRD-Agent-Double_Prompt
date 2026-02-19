@@ -50,13 +50,82 @@ def intake_gap_node(state: BRDState) -> BRDState:
         raw, usage = generate_text_with_usage("Return valid JSON only.\n\n" + prompt, max_tokens=100000, image_paths=state.image_paths)
         obj = parse_json_obj(raw)
 
-    coverage = [SectionCoverage(**item) for item in obj.get("template_coverage", []) if isinstance(item, dict)]
+    fact_pack = obj.get("FACT_PACK", [])
+    template_coverage = obj.get("TEMPLATE_COVERAGE", [])
+    gap_report = obj.get("GAP_REPORT", {})
+    quick_summary = obj.get("QUICK_SUMMARY", [])
+
+    key_facts: list[str] = []
+    if isinstance(fact_pack, list):
+        for item in fact_pack:
+            if not isinstance(item, dict):
+                continue
+            category = str(item.get("category", "")).strip()
+            fact = str(item.get("fact", "")).strip()
+            source = str(item.get("source", "")).strip()
+            if fact:
+                if category and source:
+                    key_facts.append(f"{category}: {fact} (Source: {source})")
+                elif category:
+                    key_facts.append(f"{category}: {fact}")
+                else:
+                    key_facts.append(fact)
+
+    coverage: list[SectionCoverage] = []
+    if isinstance(template_coverage, list):
+        for item in template_coverage:
+            if not isinstance(item, dict):
+                continue
+            section = str(item.get("section", "")).strip()
+            raw_status = str(item.get("status", "")).strip().lower()
+            why = str(item.get("why", "")).strip()
+            if not section:
+                continue
+            if "partially" in raw_status:
+                mapped_status = "partial"
+            elif "not covered" in raw_status or "missing" in raw_status:
+                mapped_status = "missing"
+            elif "covered" in raw_status:
+                mapped_status = "covered"
+            else:
+                mapped_status = "missing"
+            coverage.append(SectionCoverage(section=section, status=mapped_status, notes=why))
+
+    missing_information: list[str] = []
+    open_questions: list[str] = []
+    if isinstance(gap_report, dict):
+        for priority in ("blocking", "important", "nice_to_have"):
+            items = gap_report.get(priority, [])
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                section = str(item.get("template_section", "")).strip()
+                missing = str(item.get("missing", "")).strip()
+                ask_back = str(item.get("ask_back", "")).strip()
+                if missing:
+                    prefix = f"[{priority}] "
+                    if section:
+                        missing_information.append(f"{prefix}{section}: {missing}")
+                    else:
+                        missing_information.append(f"{prefix}{missing}")
+                if ask_back:
+                    open_questions.append(ask_back)
+
+    summary_lines = [str(x).strip() for x in quick_summary if str(x).strip()] if isinstance(quick_summary, list) else []
+    project_summary = " ".join(summary_lines[:6]).strip()
+
+    if not coverage:
+        for section in TEMPLATE_SECTIONS:
+            coverage.append(SectionCoverage(section=section, status="missing", notes="Not assessed"))
+
     state.intake_gap = IntakeGapResult(
-        project_summary=str(obj.get("project_summary", "")),
-        key_facts=[str(x) for x in obj.get("key_facts", []) if str(x).strip()],
+        project_summary=project_summary,
+        key_facts=key_facts,
         template_coverage=coverage,
-        missing_information=[str(x) for x in obj.get("missing_information", []) if str(x).strip()],
-        open_questions=[str(x) for x in obj.get("open_questions", []) if str(x).strip()],
+        missing_information=missing_information,
+        open_questions=open_questions,
     )
     print(
         f"[node] intake_gap tokens_used={usage['total_tokens']} "
