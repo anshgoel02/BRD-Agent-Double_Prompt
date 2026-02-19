@@ -40,11 +40,37 @@ TEMPLATE_SECTIONS: List[str] = [
 INTAKE_GAP_PROMPT = """SYSTEM
 You are an expert Agile Business Analyst and Technical Auditor with extreme attention to detail.
 
-USER
+
 Task:
 1) Extract BRD-ready facts from INPUTS_TEXT.
 2) Compare against BRD sections and identify gaps.
 3) Prepare ask-backs for human review.
+4) TEMPLATE_COVERAGE must compare extracted facts from INPUTS_TEXT against each section in BRD CONTENT STANDARDS and assign Covered / Partially Covered / Not Covered.
+
+Extraction Rules:
+- ZERO-LOSS POLICY: Treat every noun, field name, and technical tool mentioned as a mandatory fact.
+- HUNT FOR LOGIC: Look for linguistic markers of rules - phrases like "only when," "must not," "if this happens," or "reassign to" - and extract these as Logic/Rule facts.
+- UI CUES: Identify every mention of a visual or interaction detail (e.g., "red highlight", "status icon", "bulk paste", "avoid scrolling").
+- TEMPLATE_COVERAGE is a section-by-section coverage assessment against BRD CONTENT STANDARDS only.
+- NO EXTERNAL KNOWLEDGE: Use only INPUTS_TEXT.
+- DO NOT write a full BRD in this step.
+
+BRD CONTENT STANDARDS (Comparison Template):
+- 0) Header Info: Project Name, Owner, Status, Version, Date.
+- 1) Executive Summary: Purpose, Beneficiaries, Outcomes/Value.
+- 2) Context: Current state vs. Pain points, Business drivers, Personas.
+- 3) Objectives: SMART Goals, KPIs, Baselines, Measurement owner.
+- 4) Scope: In-Scope, Out-of-Scope, Constraints.
+- 5) Stakeholders: Groups, Roles, and specific Dashboard/View needs.
+- 6) Functional: Testable statements, Workflow Phases, and Logic (If/Then).
+- 7) NFRs: Performance, Security, Availability, Usability, Audit, Compliance, Data Quality.
+- 8) Data: Entities, Key Fields, Validations, Quality Rules.
+- 9) Integrations: Systems, Direction, Triggers, Error Handling.
+- 10) Analytics: Dashboards, Filters, Dimensions, Intended Users.
+- 11) SLAs: Service levels, Support model.
+- 12) Risks: Risks, Dependencies, Constraints.
+- 13) Timeline: Key milestones, Release approach.
+- 14) Open Questions: Decisions needed to finalize.
 
 Output:
 Return JSON only (single object, no markdown, no prose) with top-level keys exactly:
@@ -65,7 +91,8 @@ JSON schema:
   ],
   "TEMPLATE_COVERAGE": [
     {{
-      "section": "string",
+      "section_index": "0-14",
+      "section_name": "string",
       "status": "Covered|Partially Covered|Not Covered",
       "why": "string"
     }}
@@ -75,6 +102,7 @@ JSON schema:
       {{
         "id": "G1",
         "template_section": "string",
+        "priority": "Blocking",
         "missing": "string",
         "ask_back": "string"
       }}
@@ -83,6 +111,7 @@ JSON schema:
       {{
         "id": "G2",
         "template_section": "string",
+        "priority": "Important",
         "missing": "string",
         "ask_back": "string"
       }}
@@ -91,6 +120,7 @@ JSON schema:
       {{
         "id": "G3",
         "template_section": "string",
+        "priority": "Nice-to-have",
         "missing": "string",
         "ask_back": "string"
       }}

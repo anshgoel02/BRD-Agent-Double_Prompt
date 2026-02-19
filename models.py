@@ -30,3 +30,4 @@ class BRDState(BaseModel):
     generation_approved: bool = False
     output_markdown_path: Optional[str] = None
     output_docx_path: Optional[str] = None
+    output_intake_docx_path: Optional[str] = None

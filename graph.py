@@ -76,7 +76,7 @@ def intake_gap_node(state: BRDState) -> BRDState:
         for item in template_coverage:
             if not isinstance(item, dict):
                 continue
-            section = str(item.get("section", "")).strip()
+            section = str(item.get("section_name", "")).strip() or str(item.get("section", "")).strip()
             raw_status = str(item.get("status", "")).strip().lower()
             why = str(item.get("why", "")).strip()
             if not section:
@@ -127,6 +127,8 @@ def intake_gap_node(state: BRDState) -> BRDState:
         missing_information=missing_information,
         open_questions=open_questions,
     )
+    if state.output_intake_docx_path:
+        _save_intake_gap_docx(state.intake_gap, state.output_intake_docx_path)
     print(
         f"[node] intake_gap tokens_used={usage['total_tokens']} "
         f"(prompt={usage['prompt_tokens']} completion={usage['completion_tokens']})"
@@ -223,6 +225,55 @@ def _save_docx(markdown: str, output_path: str) -> None:
             doc.add_paragraph("")
         else:
             doc.add_paragraph(line)
+    doc.save(output_path)
+
+
+def _save_intake_gap_docx(intake: IntakeGapResult, output_path: str) -> None:
+    if Document is None:
+        raise RuntimeError("python-docx is required to write .docx output.")
+
+    doc = Document()
+    doc.add_heading("Intake Gap Result", level=1)
+
+    doc.add_heading("Project Summary", level=2)
+    doc.add_paragraph(intake.project_summary or "No summary generated.")
+
+    doc.add_heading("Key Facts", level=2)
+    if intake.key_facts:
+        for fact in intake.key_facts:
+            doc.add_paragraph(str(fact), style="List Bullet")
+    else:
+        doc.add_paragraph("None")
+
+    doc.add_heading("Template Coverage", level=2)
+    if intake.template_coverage:
+        table = doc.add_table(rows=1, cols=3)
+        table.style = "Table Grid"
+        table.rows[0].cells[0].text = "Section"
+        table.rows[0].cells[1].text = "Status"
+        table.rows[0].cells[2].text = "Notes"
+        for item in intake.template_coverage:
+            row = table.add_row().cells
+            row[0].text = item.section
+            row[1].text = item.status
+            row[2].text = item.notes
+    else:
+        doc.add_paragraph("No coverage data.")
+
+    doc.add_heading("Missing Information", level=2)
+    if intake.missing_information:
+        for gap in intake.missing_information:
+            doc.add_paragraph(str(gap), style="List Bullet")
+    else:
+        doc.add_paragraph("None")
+
+    doc.add_heading("Open Questions", level=2)
+    if intake.open_questions:
+        for q in intake.open_questions:
+            doc.add_paragraph(str(q), style="List Number")
+    else:
+        doc.add_paragraph("None")
+
     doc.save(output_path)
 
 

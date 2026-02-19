@@ -35,6 +35,11 @@ def parse_args() -> argparse.Namespace:
         default=str(Path(settings.default_output_dir) / "brd_double.docx"),
         help="Path to save BRD as .docx",
     )
+    parser.add_argument(
+        "--output-intake-docx",
+        default=str(Path(settings.default_output_dir) / "intake_gap.docx"),
+        help="Path to save IntakeGapResult as .docx",
+    )
     return parser.parse_args()
 
 
@@ -46,6 +51,7 @@ def main() -> None:
         inputs=args.inputs,
         output_markdown_path=args.output_md,
         output_docx_path=args.output_docx,
+        output_intake_docx_path=args.output_intake_docx,
     )
     graph.invoke(state)
 
